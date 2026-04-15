@@ -25,7 +25,10 @@ export interface GolfsResponse {
 })
 export class GolfService {
   private http = inject(HttpClient);
-  private apiUrl = 'http://localhost:3000/api';
+  private localFetch = true; // Set to false to use real backend API
+  private localApiUrl = 'data/golfs-response.json';
+  private serverApiUrl = 'http://localhost:3000/api';
+  private regionsUrl = this.localFetch ? 'data/regions.json' : `${this.serverApiUrl}/golfs/regions`;
 
   private golfsSubject = new BehaviorSubject<Golf[]>([]);
   private loadingSubject = new BehaviorSubject<boolean>(false);
@@ -50,8 +53,12 @@ export class GolfService {
    */
   loadGolfs(sort: string = 'date', filter?: string) {
     this.loadingSubject.next(true);
-    let url = `${this.apiUrl}/golfs?sort=${sort}`;
-    if (filter) {
+
+    let url = `${this.serverApiUrl}/golfs?sort=${sort}`;
+    if (this.localFetch) {
+      url = this.localApiUrl
+    }
+    else if (filter) {
       url += `&filter=${encodeURIComponent(filter)}`;
     }
 
@@ -79,7 +86,7 @@ export class GolfService {
       message: string;
       count: number;
       lastScrapedAt: string;
-    }>(`${this.apiUrl}/refresh`, {})
+    }>(`${this.serverApiUrl}/refresh`, {})
       .pipe(
         tap(() => {
           // Reload the list
@@ -97,7 +104,7 @@ export class GolfService {
    * Load regions
    */
   loadRegions() {
-    return this.http.get<string[]>(`${this.apiUrl}/golfs/regions`)
+    return this.http.get<string[]>(this.regionsUrl)
       .pipe(
         tap((regions) => {
           this.regionsSubject.next(regions);
