@@ -43,9 +43,9 @@ export class GolfService {
     this.loadRegions().subscribe();
 
     // Auto-refresh every 15 minutes
-    interval(15 * 60 * 1000)
-      .pipe(switchMap(() => this.refreshGolfs()))
-      .subscribe();
+    // interval(15 * 60 * 1000)
+    //   .pipe(switchMap(() => this.refreshGolfs()))
+    //   .subscribe();
   }
 
   /**
