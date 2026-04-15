@@ -69,7 +69,7 @@ async function scrapeGolfs() {
 
     if (tableRows.length > 0) {
       tableRows.each((idx, row) => {
-        if (golfs.length >= 50) return;
+       // if (golfs.length >= 190) return;
 
         try {
           const $row = $(row);
@@ -91,6 +91,9 @@ async function scrapeGolfs() {
             // Extract region from 3rd column (if exists)
             if (cells.length >= 3) {
               region = $(cells[2]).text().trim();
+              if(region.toLowerCase() == 'région') {
+                return; // Skip header row
+              }
             }
 
             // Extract date from 4th column (if exists)

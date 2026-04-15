@@ -4,18 +4,17 @@ import { GolfService, Golf } from '../../services/golf.service';
 
 @Component({
   selector: 'app-golf-list',
-  standalone: true,
   imports: [],
   template: `
     <div class="golf-list-container">
       <div class="controls">
-        <h2>Golfs du Québec</h2>
+        <h2>Golfs du Québec, saison {{ currentYear }}</h2>
 
-        <div class="control-buttons">
+        <!-- <div class="control-buttons">
           <button (click)="refresh()" [disabled]="isLoading()">
             {{ isLoading() ? '⟳ Actualisation...' : '🔄 Actualiser' }}
           </button>
-        </div>
+        </div> -->
 
         <div class="filters">
           <label>
@@ -73,10 +72,11 @@ import { GolfService, Golf } from '../../services/golf.service';
               >
                 <strong>{{ displayOuverture(golf.openingDate) }}</strong>
               </div>
-              @if (golf.coordinates) {
-                <div class="coordinates">
-                  <strong>Localisation:</strong>
-                  {{ golf.coordinates.lat.toFixed(4) }}, {{ golf.coordinates.lng.toFixed(4) }}
+              @if (golf.name && golf.region) {
+                <div class="map-link">
+                  <a href="{{ displayMapLink(golf) }}" target="_blank" rel="noopener noreferrer">
+                    Ouvrir dans Google Maps
+                  </a>
                 </div>
               }
             </div>
@@ -88,7 +88,7 @@ import { GolfService, Golf } from '../../services/golf.service';
       </div>
 
       <div class="total-count">
-        Total: <strong>{{ displayedGolfs().length }}</strong> golf(s)
+        Total: <strong>{{ displayedGolfs().length }}</strong> golf@if (displayedGolfs().length > 1) {s}
       </div>
     </div>
   `,
@@ -255,9 +255,20 @@ import { GolfService, Golf } from '../../services/golf.service';
         opacity: 0.7;
       }
 
-      .coordinates {
-        color: #666;
+      .map-link a {
+        color: #2563eb;
+        background-color: #0369a11a;
+        text-decoration: none;
         font-size: 0.9rem;
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+        transition: background-color 0.3s, color 0.3s;
+      }
+
+      .map-link a:hover {
+        color: #1d4ed8;
+        background-color: #0369a133;
+
       }
 
       .golf-footer {
@@ -298,14 +309,17 @@ import { GolfService, Golf } from '../../services/golf.service';
 export class GolfListComponent implements OnInit {
   private golfService = inject(GolfService);
 
+  currentYear = new Date().getFullYear();
   isLoading = signal(false);
   sortBy = signal<'date' | 'name' | 'region'>('date');
   selectedRegion = signal('');
-  hideUndetermined = signal(false);
+  hideUndetermined = signal(true);
+  golfs = signal<Golf[]>([]);
 
-  regions = computed(() => this.golfService.getRegions());
+  regions = signal<string[]>([]);
+
   displayedGolfs = computed(() => {
-    let golfs = this.golfService.getCurrentGolfs();
+    let golfs = this.golfs();
 
     // Filter by region if selected
     if (this.selectedRegion()) {
@@ -326,8 +340,15 @@ export class GolfListComponent implements OnInit {
       this.isLoading.set(loading);
     });
 
-    this.golfService.loadRegions().subscribe();
-    this.golfService.loadGolfs().subscribe();
+    this.golfService.golfs$.subscribe((golfs) => {
+      this.golfs.set(golfs);
+    });
+
+    this.golfService.loadRegions().subscribe(
+      (regions) => {
+        this.regions.set(regions);
+      }
+    );
   }
 
   refresh() {
@@ -393,7 +414,7 @@ export class GolfListComponent implements OnInit {
       if (dateString === 'À déterminer') {
         return false;
       }
-      const dateOuverture = this.parseFrenchDate(dateString + ' 2026');
+      const dateOuverture = this.parseFrenchDate(dateString + ' ' + this.currentYear);
       const aujourdhui = new Date();
       return dateOuverture.getTime() <= aujourdhui.getTime();
     } catch {
@@ -401,20 +422,25 @@ export class GolfListComponent implements OnInit {
     }
   }
 
+  displayMapLink(golf: Golf): string {
+     return `https://www.google.com/maps/search/?api=1&query=${golf.name.replace(/\s+/g, '+')},+${golf.region.replace(/\s+/g, '+')},+Québec,+Canada&query_place_id=${golf.id}`;
+  }
+
   displayOuverture(dateString: string): string {
     try {
       if (dateString === 'À déterminer') {
         return 'Ouverture à déterminer';
       }
-      const dateOuverture = this.parseFrenchDate(dateString + ' 2026');
+
       const aujourdhui = new Date();
+      const dateOuverture = this.parseFrenchDate(dateString + ' ' + aujourdhui.getFullYear());
 
       if (dateOuverture.getTime() === aujourdhui.getTime()) {
         return "Ouvre aujourd'hui !";
       } else if (dateOuverture < aujourdhui) {
-        return 'Ouvert depuis le ' + dateString;
+        return 'Ouvert depuis le ' + dateString + ' ' + aujourdhui.getFullYear();
       } else {
-        return 'Ouverture prévue le ' + dateString;
+        return 'Ouverture prévue le ' + dateString + ' ' + aujourdhui.getFullYear();
       }
     } catch {
       return 'Date non détectée';

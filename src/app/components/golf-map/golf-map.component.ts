@@ -1,20 +1,19 @@
 import { Component, OnInit, inject, AfterViewInit, signal } from '@angular/core';
 
 import { GolfService, Golf } from '../../services/golf.service';
+import { map } from 'rxjs';
 
 // Leaflet types
 declare const L: any;
 
 @Component({
   selector: 'app-golf-map',
-  standalone: true,
   imports: [],
   template: `
     <div class="map-container">
       <div class="map-header">
-        <h2>Carte des golfs</h2>
         <div class="map-info">
-          <p>{{ golfs().length }} golfs</p>
+          <p>{{ golfs().length }} golfs avec une date d'ouverture</p>
         </div>
       </div>
       <div #mapElement class="map" id="golf-map"></div>
@@ -114,11 +113,18 @@ export class GolfMapComponent implements OnInit, AfterViewInit {
   golfs = signal<Golf[]>([]);
 
   ngOnInit() {
-    this.golfService.golfs$.subscribe((golfs) => {
-      this.golfs.set(golfs);
-      if (this.map) {
-        this.updateMarkers();
-      }
+    this
+      .golfService
+      .golfs$
+      .pipe(
+        // filter golfs by removing those with no opening date
+        map(golfs => golfs.filter(golf => golf.openingDate && golf.openingDate !== 'À déterminer')),
+      )
+      .subscribe((golfs) => {
+        this.golfs.set(golfs);
+      // if (this.map) {
+      //   this.updateMarkers();
+      // }
     });
   }
 
@@ -164,7 +170,7 @@ export class GolfMapComponent implements OnInit, AfterViewInit {
     this.updateMarkers();
   }
 
-  private updateMarkers() {
+  private async updateMarkers() {
     if (!this.map) return;
 
     // Remove old markers
@@ -174,24 +180,26 @@ export class GolfMapComponent implements OnInit, AfterViewInit {
     this.markers = [];
 
     // Add new markers
-    this.golfs().forEach((golf) => {
-      if (golf.coordinates) {
-        const marker = L.marker([golf.coordinates.lat, golf.coordinates.lng], {
-          title: golf.name,
-        });
+    this.golfs().forEach(async (golf) => {
+      console.info('Adding marker for golf:', golf.name, golf.coordinates);
+      await this.addMarkerFromGolf(golf);
+      // if (golf.coordinates) {
+      //   const marker = L.marker([golf.coordinates.lat, golf.coordinates.lng], {
+      //     title: golf.name,
+      //   });
 
-        const popupContent = `
-          <div class="golf-popup-content">
-            <div class="golf-popup-name">${golf.name}</div>
-            <div class="golf-popup-region">${golf.region}</div>
-            <div class="golf-popup-date">📅 ${golf.openingDate}</div>
-          </div>
-        `;
+      //   const popupContent = `
+      //     <div class="golf-popup-content">
+      //       <div class="golf-popup-name">${golf.name}</div>
+      //       <div class="golf-popup-region">${golf.region}</div>
+      //       <div class="golf-popup-date">📅 ${golf.openingDate}</div>
+      //     </div>
+      //   `;
 
-        marker.bindPopup(popupContent);
-        marker.addTo(this.map!);
-        this.markers.push(marker);
-      }
+      //   marker.bindPopup(popupContent);
+      //   marker.addTo(this.map!);
+      //   this.markers.push(marker);
+      // }
     });
 
     // Fit bounds if markers exist
@@ -200,4 +208,40 @@ export class GolfMapComponent implements OnInit, AfterViewInit {
       this.map.fitBounds(group.getBounds().pad(0.1));
     }
   }
+
+  async addMarkerFromGolf(golf: Golf) {
+    // Call the Nominatim API
+    const url = `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(golf.name + ', ' + golf.region)}&email=yournameXYZ@example.com`;
+
+    try {
+        const response = await fetch(url);
+        const data = await response.json();
+
+        if (data.length > 0) {
+            const lat = data[0].lat;
+            const lon = data[0].lon;
+
+            const marker = L.marker([lat, lon], {
+              title: golf.name,
+            });
+
+            const popupContent = `
+              <div class="golf-popup-content">
+                <div class="golf-popup-name">${golf.name}</div>
+                <div class="golf-popup-region">${golf.region}</div>
+                <div class="golf-popup-date">📅 ${golf.openingDate}</div>
+              </div>
+            `;
+
+            marker.bindPopup(popupContent);
+            marker.addTo(this.map!);
+            this.markers.push(marker);
+        } else {
+            console.info("Golf not found! " + golf.name + ", " + golf.region);
+        }
+    } catch (error) {
+        console.error("Error fetching geocode:", error);
+    }
+  }
+
 }

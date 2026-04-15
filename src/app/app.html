@@ -1,21 +1,19 @@
 <div class="app-container">
   <nav class="navbar">
     <div class="nav-content">
-      <h1 class="nav-title">{{ title() }}</h1>
-      <div class="nav-buttons">
+      <h1 class="nav-title">Date d'ouverture de la saison de Golf au Québec 🏌️</h1>
+      <!-- <div class="nav-buttons">
         <a routerLink="/liste"
-           [class.active]="currentView() === 'liste'"
-           (click)="navigateTo('liste')"
+          routerLinkActive="active"
            class="nav-link">
           📋 Liste
         </a>
         <a routerLink="/carte"
-           [class.active]="currentView() === 'carte'"
-           (click)="navigateTo('carte')"
+           routerLinkActive="active"
            class="nav-link">
           🗺️ Carte
         </a>
-      </div>
+      </div> -->
     </div>
   </nav>
 
@@ -24,7 +22,7 @@
   </main>
 
   <footer class="footer">
-    <p>Golf Monitor - Surveillance des dates d'ouverture des golfs au Québec</p>
+    <p>Dates d'ouverture des golfs au Québec - saison {{ currentYear }}.</p>
     <p><small>Données mises à jour automatiquement chaque matin à 6 AM</small></p>
   </footer>
 </div>

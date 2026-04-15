@@ -36,9 +36,11 @@ export class GolfService {
   regions$ = this.regionsSubject.asObservable();
 
   constructor() {
-    this.loadGolfs();
-    // Auto-refresh every 5 minutes
-    interval(5 * 60 * 1000)
+    this.loadGolfs().subscribe();
+    this.loadRegions().subscribe();
+
+    // Auto-refresh every 15 minutes
+    interval(15 * 60 * 1000)
       .pipe(switchMap(() => this.refreshGolfs()))
       .subscribe();
   }
@@ -112,14 +114,6 @@ export class GolfService {
    */
   getCurrentGolfs(): Golf[] {
     return this.golfsSubject.value;
-  }
-
-  /**
-   * Get unique regions from current golfs
-   */
-  getRegions(): string[] {
-    const regions = new Set(this.golfsSubject.value.map(g => g.region));
-    return Array.from(regions).sort();
   }
 
   /**
