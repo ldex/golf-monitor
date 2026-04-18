@@ -182,24 +182,24 @@ export class GolfMapComponent implements OnInit, AfterViewInit {
     // Add new markers
     this.golfs().forEach(async (golf) => {
       console.info('Adding marker for golf:', golf.name, golf.coordinates);
-      await this.addMarkerFromGolf(golf);
-      // if (golf.coordinates) {
-      //   const marker = L.marker([golf.coordinates.lat, golf.coordinates.lng], {
-      //     title: golf.name,
-      //   });
+      //await this.addMarkerFromGolf(golf);
+      if (golf.coordinates) {
+        const marker = L.marker([golf.coordinates.lat, golf.coordinates.lng], {
+          title: golf.name,
+        });
 
-      //   const popupContent = `
-      //     <div class="golf-popup-content">
-      //       <div class="golf-popup-name">${golf.name}</div>
-      //       <div class="golf-popup-region">${golf.region}</div>
-      //       <div class="golf-popup-date">📅 ${golf.openingDate}</div>
-      //     </div>
-      //   `;
+        const popupContent = `
+          <div class="golf-popup-content">
+            <div class="golf-popup-name">${golf.name}</div>
+            <div class="golf-popup-region">${golf.region}</div>
+            <div class="golf-popup-date">📅 ${golf.openingDate}</div>
+          </div>
+        `;
 
-      //   marker.bindPopup(popupContent);
-      //   marker.addTo(this.map!);
-      //   this.markers.push(marker);
-      // }
+        marker.bindPopup(popupContent);
+        marker.addTo(this.map!);
+        this.markers.push(marker);
+      }
     });
 
     // Fit bounds if markers exist

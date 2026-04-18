@@ -6,6 +6,7 @@ import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_FILE = path.join(__dirname, '../data/golfs.json');
+const CACHE_FILE = path.join(__dirname, '../data/geocoding-cache.json');
 
 /**
  * Scrapes golf opening dates from info.golf
@@ -250,7 +251,90 @@ async function scrapeGolfs() {
 }
 
 /**
- * Generates approximate coordinates for Quebec regions
+ * Delay helper for rate limiting
+ */
+function delay(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+/**
+ * Load geocoding cache from file
+ */
+function loadGeocodingCache() {
+  try {
+    if (fs.existsSync(CACHE_FILE)) {
+      const data = fs.readFileSync(CACHE_FILE, 'utf-8');
+      return JSON.parse(data);
+    }
+  } catch (error) {
+    console.log('⚠️  Could not load geocoding cache:', error.message);
+  }
+  return {};
+}
+
+/**
+ * Save geocoding cache to file
+ */
+function saveGeocodingCache(cache) {
+  try {
+    fs.writeFileSync(CACHE_FILE, JSON.stringify(cache, null, 2));
+  } catch (error) {
+    console.log('⚠️  Could not save geocoding cache:', error.message);
+  }
+}
+
+/**
+ * Get cache key for a golf course
+ */
+function getCacheKey(golfName, region) {
+  return `${golfName}||${region}`.toLowerCase();
+}
+
+/**
+ * Geocodes a golf course using Nominatim API
+ */
+async function geocodeWithNominatim(golfName, region) {
+  try {
+    const query = `${golfName}, ${region}, Quebec, Canada`;
+    const url = `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(query)}`;
+
+    const response = await fetch(url, {
+      headers: {
+        'User-Agent': 'GolfMonitorApp/1.0 (+http://localhost:3000)'
+      }
+    });
+
+    // Handle 403 Forbidden separately
+    if (response.status === 403) {
+      console.log(`   ⚠️  Blocked (403) for: ${golfName} - rate limited or too many requests`);
+      return null;
+    }
+
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}`);
+    }
+
+    const data = await response.json();
+
+    if (data.length > 0) {
+      const result = data[0];
+      console.log(`   ✓ Geocoded: ${golfName} → (${result.lat}, ${result.lon})`);
+      return {
+        lat: parseFloat(result.lat),
+        lng: parseFloat(result.lon)
+      };
+    } else {
+      console.log(`   ⚠️  No results for: ${golfName}`);
+      return null;
+    }
+  } catch (error) {
+    console.log(`   ❌ Geocoding error for ${golfName}: ${error.message}`);
+    return null;
+  }
+}
+
+/**
+ * Generates fallback coordinates for Quebec regions
  */
 function getApproximateCoordinates(golfName, region) {
   const regionCoordinates = {
@@ -286,18 +370,78 @@ function getApproximateCoordinates(golfName, region) {
 }
 
 /**
- * Saves golfs to JSON file
+ * Saves golfs to JSON file with geocoding (uses cache)
  */
-function saveGolfs(golfs) {
+async function saveGolfs(golfs) {
   try {
-    // Add coordinates
-    const golfsWithCoords = golfs.map(golf => ({
-      ...golf,
-      coordinates: getApproximateCoordinates(golf.name, golf.region)
-    }));
+    // Load existing geocoding cache
+    const geoCache = loadGeocodingCache();
+    const cacheHits = { used: 0, new: 0, skipped: 0 };
+
+    // Filter golfs with actual opening dates (not "À déterminer")
+    const golfsToGeocode = golfs.filter(g =>
+      g.name && g.region && g.openingDate && g.openingDate !== 'À déterminer'
+    );
+
+    console.log(`\n🌍 Processing ${golfs.length} golf courses`);
+    console.log(`   📍 ${golfsToGeocode.length} have opening dates (will geocode)`);
+    console.log(`   ⏭️  ${golfs.length - golfsToGeocode.length} skipped (no opening date)\n`);
+
+    const golfsWithCoords = [];
+
+    for (let i = 0; i < golfs.length; i++) {
+      const golf = golfs[i];
+      let coordinates = null;
+
+      // Check if this golf needs geocoding
+      if (golfsToGeocode.includes(golf)) {
+        const cacheKey = getCacheKey(golf.name, golf.region);
+
+        // Check cache first
+        if (geoCache[cacheKey]) {
+          coordinates = geoCache[cacheKey];
+          console.log(`   ♻️  From cache: ${golf.name}`);
+          cacheHits.used++;
+        } else {
+          // Geocode with Nominatim
+          coordinates = await geocodeWithNominatim(golf.name, golf.region);
+
+          if (coordinates) {
+            // Save to cache
+            geoCache[cacheKey] = coordinates;
+            cacheHits.new++;
+          } else {
+            cacheHits.skipped++;
+          }
+
+          // Add delay to respect Nominatim rate limits
+          await delay(1500);
+        }
+      }
+
+      // Fall back to region coordinates if no geocoding result
+      if (!coordinates) {
+        coordinates = getApproximateCoordinates(golf.name, golf.region);
+      }
+
+      golfsWithCoords.push({
+        ...golf,
+        coordinates
+      });
+
+      // Progress indicator
+      if ((i + 1) % 10 === 0) {
+        console.log(`   Progress: ${i + 1}/${golfs.length}`);
+      }
+    }
+
+    // Save cache
+    saveGeocodingCache(geoCache);
 
     fs.writeFileSync(DATA_FILE, JSON.stringify(golfsWithCoords, null, 2));
-    console.log(`💾 Saved ${golfsWithCoords.length} golfs to data file`);
+    console.log(`\n💾 Saved ${golfsWithCoords.length} golfs to data file`);
+    console.log(`📊 Geocoding stats: ${cacheHits.used} from cache, ${cacheHits.new} newly geocoded, ${cacheHits.skipped} failed`);
+
     return golfsWithCoords;
   } catch (error) {
     console.error('Error saving golfs:', error.message);
@@ -326,7 +470,7 @@ export function loadGolfs() {
 export async function scrapeAndSave() {
   const golfs = await scrapeGolfs();
   if (golfs.length > 0) {
-    return saveGolfs(golfs);
+    return await saveGolfs(golfs);
   }
   console.log('📂 No new golfs scraped, keeping existing data');
   return loadGolfs();

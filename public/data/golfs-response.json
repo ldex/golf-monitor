@@ -1,9 +1,9 @@
 {
   "count": 168,
-  "lastScrapedAt": "2026-04-18T21:50:38.747Z",
+  "lastScrapedAt": "2026-04-18T23:00:04.783Z",
   "data": [
     {
-      "id": "golf_1776549038747_0.500344924702605",
+      "id": "golf_1776553204783_0.9380425437353999",
       "name": "Golf Noranda",
       "openingDate": "À déterminer",
       "region": "Abitibi-Témiscamingue",
@@ -12,10 +12,10 @@
         "lng": -80.7837
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.747Z"
+      "scrapedAt": "2026-04-18T23:00:04.783Z"
     },
     {
-      "id": "golf_1776549038751_0.12249297540430004",
+      "id": "golf_1776553204784_0.3842042465391131",
       "name": "Golf Cacouna",
       "openingDate": "À déterminer",
       "region": "Bas-Saint-Laurent",
@@ -24,10 +24,10 @@
         "lng": -69.0833
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.751Z"
+      "scrapedAt": "2026-04-18T23:00:04.784Z"
     },
     {
-      "id": "golf_1776549038760_0.9662160165981428",
+      "id": "golf_1776553204784_0.4872116962234614",
       "name": "Golf les Saules",
       "openingDate": "À déterminer",
       "region": "Bas-Saint-Laurent",
@@ -36,10 +36,10 @@
         "lng": -69.0833
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.760Z"
+      "scrapedAt": "2026-04-18T23:00:04.784Z"
     },
     {
-      "id": "golf_1776549038767_0.34888585718497156",
+      "id": "golf_1776553204785_0.16760101356564028",
       "name": "Golf Rivière-du-Loup",
       "openingDate": "À déterminer",
       "region": "Bas-Saint-Laurent",
@@ -48,10 +48,10 @@
         "lng": -69.0833
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.767Z"
+      "scrapedAt": "2026-04-18T23:00:04.785Z"
     },
     {
-      "id": "golf_1776549038772_0.6813718082399776",
+      "id": "golf_1776553204786_0.2609727478433592",
       "name": "Golf Vallée de Témiscouata",
       "openingDate": "À déterminer",
       "region": "Bas-Saint-Laurent",
@@ -60,10 +60,10 @@
         "lng": -69.0833
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.772Z"
+      "scrapedAt": "2026-04-18T23:00:04.786Z"
     },
     {
-      "id": "golf_1776549038776_0.43896907911184146",
+      "id": "golf_1776553204788_0.8372069292163304",
       "name": "Golf Château Bromont",
       "openingDate": "À déterminer",
       "region": "Cantons-de-l’Est",
@@ -72,10 +72,10 @@
         "lng": -71.208
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.776Z"
+      "scrapedAt": "2026-04-18T23:00:04.788Z"
     },
     {
-      "id": "golf_1776549038778_0.046074723094823744",
+      "id": "golf_1776553204790_0.8551164970526661",
       "name": "Golf Dufferin Heights",
       "openingDate": "À déterminer",
       "region": "Cantons-de-l’Est",
@@ -84,10 +84,10 @@
         "lng": -71.208
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.778Z"
+      "scrapedAt": "2026-04-18T23:00:04.790Z"
     },
     {
-      "id": "golf_1776549038783_0.982140029183066",
+      "id": "golf_1776553204795_0.3437866759662245",
       "name": "Golf Mégantic",
       "openingDate": "À déterminer",
       "region": "Cantons-de-l’Est",
@@ -96,10 +96,10 @@
         "lng": -71.208
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.783Z"
+      "scrapedAt": "2026-04-18T23:00:04.795Z"
     },
     {
-      "id": "golf_1776549038789_0.7708640958692417",
+      "id": "golf_1776553204796_0.3971320577116335",
       "name": "Golf Mont Orford",
       "openingDate": "À déterminer",
       "region": "Cantons-de-l’Est",
@@ -108,10 +108,10 @@
         "lng": -71.208
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.789Z"
+      "scrapedAt": "2026-04-18T23:00:04.796Z"
     },
     {
-      "id": "golf_1776549038792_0.04354063095026928",
+      "id": "golf_1776553204796_0.02603369514709919",
       "name": "Golf Owl’s Head",
       "openingDate": "À déterminer",
       "region": "Cantons-de-l’Est",
@@ -120,10 +120,10 @@
         "lng": -71.208
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.792Z"
+      "scrapedAt": "2026-04-18T23:00:04.796Z"
     },
     {
-      "id": "golf_1776549038794_0.12133786896762522",
+      "id": "golf_1776553204796_0.5671263868850278",
       "name": "Golf  Parcours Vieux Village de Bromont",
       "openingDate": "À déterminer",
       "region": "Cantons-de-l’Est",
@@ -132,10 +132,10 @@
         "lng": -71.208
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.794Z"
+      "scrapedAt": "2026-04-18T23:00:04.796Z"
     },
     {
-      "id": "golf_1776549038796_0.39299779417535596",
+      "id": "golf_1776553204797_0.9121827473892385",
       "name": "Golf Le Rocher Roxton Pond",
       "openingDate": "À déterminer",
       "region": "Cantons-de-l’Est",
@@ -144,10 +144,10 @@
         "lng": -71.208
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.796Z"
+      "scrapedAt": "2026-04-18T23:00:04.797Z"
     },
     {
-      "id": "golf_1776549038810_0.054946300704389106",
+      "id": "golf_1776553204799_0.849741886440091",
       "name": "Golf Val-des-Sources (Asbestos)",
       "openingDate": "À déterminer",
       "region": "Cantons-de-l’Est",
@@ -156,10 +156,10 @@
         "lng": -71.208
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.810Z"
+      "scrapedAt": "2026-04-18T23:00:04.799Z"
     },
     {
-      "id": "golf_1776549038820_0.669221772678555",
+      "id": "golf_1776553204800_0.27049995368814583",
       "name": "Golf 9Chatel",
       "openingDate": "À déterminer",
       "region": "Capitale-Nationale",
@@ -168,10 +168,10 @@
         "lng": -71.208
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.820Z"
+      "scrapedAt": "2026-04-18T23:00:04.801Z"
     },
     {
-      "id": "golf_1776549038833_0.5496827635581978",
+      "id": "golf_1776553204801_0.575806097850063",
       "name": "Golf l’Albatros",
       "openingDate": "À déterminer",
       "region": "Capitale-Nationale",
@@ -180,10 +180,10 @@
         "lng": -71.208
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.833Z"
+      "scrapedAt": "2026-04-18T23:00:04.801Z"
     },
     {
-      "id": "golf_1776549038838_0.8110612520462885",
+      "id": "golf_1776553204802_0.37424523085355665",
       "name": "Golf Alpin",
       "openingDate": "À déterminer",
       "region": "Capitale-Nationale",
@@ -192,10 +192,10 @@
         "lng": -71.208
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.838Z"
+      "scrapedAt": "2026-04-18T23:00:04.802Z"
     },
     {
-      "id": "golf_1776549038854_0.3979106129935297",
+      "id": "golf_1776553204802_0.9380622191860113",
       "name": "Golf Beauport",
       "openingDate": "À déterminer",
       "region": "Capitale-Nationale",
@@ -204,10 +204,10 @@
         "lng": -71.208
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.854Z"
+      "scrapedAt": "2026-04-18T23:00:04.802Z"
     },
     {
-      "id": "golf_1776549038857_0.2224777427197011",
+      "id": "golf_1776553204802_0.5800607481885067",
       "name": "Golf de la Faune",
       "openingDate": "À déterminer",
       "region": "Capitale-Nationale",
@@ -216,10 +216,10 @@
         "lng": -71.208
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.857Z"
+      "scrapedAt": "2026-04-18T23:00:04.802Z"
     },
     {
-      "id": "golf_1776549038858_0.8425152946839409",
+      "id": "golf_1776553204803_0.23362772147300404",
       "name": "Golf des Pins",
       "openingDate": "À déterminer",
       "region": "Capitale-Nationale",
@@ -228,10 +228,10 @@
         "lng": -71.208
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.858Z"
+      "scrapedAt": "2026-04-18T23:00:04.803Z"
     },
     {
-      "id": "golf_1776549038859_0.8516805420451004",
+      "id": "golf_1776553204803_0.7304802037275322",
       "name": "Golf Grand Portneuf",
       "openingDate": "À déterminer",
       "region": "Capitale-Nationale",
@@ -240,10 +240,10 @@
         "lng": -71.208
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.859Z"
+      "scrapedAt": "2026-04-18T23:00:04.803Z"
     },
     {
-      "id": "golf_1776549038863_0.2311994091274836",
+      "id": "golf_1776553204803_0.7642109708046003",
       "name": "Golf Grand Vallon",
       "openingDate": "À déterminer",
       "region": "Capitale-Nationale",
@@ -252,10 +252,10 @@
         "lng": -71.208
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.863Z"
+      "scrapedAt": "2026-04-18T23:00:04.803Z"
     },
     {
-      "id": "golf_1776549038865_0.24009202251640094",
+      "id": "golf_1776553204804_0.1879796128428548",
       "name": "Golf Lac St-Joseph",
       "openingDate": "À déterminer",
       "region": "Capitale-Nationale",
@@ -264,10 +264,10 @@
         "lng": -71.208
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.865Z"
+      "scrapedAt": "2026-04-18T23:00:04.804Z"
     },
     {
-      "id": "golf_1776549038866_0.3955523237157208",
+      "id": "golf_1776553204804_0.2953612469728504",
       "name": "Golf Lorette",
       "openingDate": "À déterminer",
       "region": "Capitale-Nationale",
@@ -276,10 +276,10 @@
         "lng": -71.208
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.866Z"
+      "scrapedAt": "2026-04-18T23:00:04.804Z"
     },
     {
-      "id": "golf_1776549038866_0.49215378136732957",
+      "id": "golf_1776553204805_0.8862916945501738",
       "name": "Golf Le Montmorency",
       "openingDate": "À déterminer",
       "region": "Capitale-Nationale",
@@ -288,10 +288,10 @@
         "lng": -71.208
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.866Z"
+      "scrapedAt": "2026-04-18T23:00:04.805Z"
     },
     {
-      "id": "golf_1776549038867_0.9375363480017789",
+      "id": "golf_1776553204805_0.9250144091004293",
       "name": "Golf Métropolitain",
       "openingDate": "À déterminer",
       "region": "Capitale-Nationale",
@@ -300,10 +300,10 @@
         "lng": -71.208
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.867Z"
+      "scrapedAt": "2026-04-18T23:00:04.805Z"
     },
     {
-      "id": "golf_1776549038868_0.041990104713820475",
+      "id": "golf_1776553204805_0.7586604115170632",
       "name": "Golf Mont Tourbillon",
       "openingDate": "À déterminer",
       "region": "Capitale-Nationale",
@@ -312,10 +312,10 @@
         "lng": -71.208
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.868Z"
+      "scrapedAt": "2026-04-18T23:00:04.805Z"
     },
     {
-      "id": "golf_1776549038871_0.2222084712109762",
+      "id": "golf_1776553204807_0.3801739586800519",
       "name": "Golf Orléans",
       "openingDate": "À déterminer",
       "region": "Capitale-Nationale",
@@ -324,10 +324,10 @@
         "lng": -71.208
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.871Z"
+      "scrapedAt": "2026-04-18T23:00:04.807Z"
     },
     {
-      "id": "golf_1776549038872_0.8827674182255694",
+      "id": "golf_1776553204809_0.944753327755379",
       "name": "Golf Royal Charbourg",
       "openingDate": "À déterminer",
       "region": "Capitale-Nationale",
@@ -336,10 +336,10 @@
         "lng": -71.208
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.872Z"
+      "scrapedAt": "2026-04-18T23:00:04.809Z"
     },
     {
-      "id": "golf_1776549038874_0.6251189080504274",
+      "id": "golf_1776553204810_0.2039928011087755",
       "name": "Golf Stoneham",
       "openingDate": "À déterminer",
       "region": "Capitale-Nationale",
@@ -348,10 +348,10 @@
         "lng": -71.208
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.874Z"
+      "scrapedAt": "2026-04-18T23:00:04.810Z"
     },
     {
-      "id": "golf_1776549038882_0.47480883432207577",
+      "id": "golf_1776553204813_0.7602418090024217",
       "name": "Golf Canton",
       "openingDate": "À déterminer",
       "region": "Centre-du-Québec",
@@ -360,10 +360,10 @@
         "lng": -72.6167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.882Z"
+      "scrapedAt": "2026-04-18T23:00:04.813Z"
     },
     {
-      "id": "golf_1776549038883_0.024752402101892557",
+      "id": "golf_1776553204813_0.29357468083826754",
       "name": "Golf Drummondville",
       "openingDate": "À déterminer",
       "region": "Centre-du-Québec",
@@ -372,10 +372,10 @@
         "lng": -72.6167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.884Z"
+      "scrapedAt": "2026-04-18T23:00:04.813Z"
     },
     {
-      "id": "golf_1776549038885_0.2816041967820959",
+      "id": "golf_1776553204814_0.47070884016395054",
       "name": "Golf Gentilly",
       "openingDate": "À déterminer",
       "region": "Centre-du-Québec",
@@ -384,10 +384,10 @@
         "lng": -72.6167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.885Z"
+      "scrapedAt": "2026-04-18T23:00:04.814Z"
     },
     {
-      "id": "golf_1776549038887_0.7257475813597325",
+      "id": "golf_1776553204814_0.9450986098200393",
       "name": "Golf Godefroy",
       "openingDate": "À déterminer",
       "region": "Centre-du-Québec",
@@ -396,10 +396,10 @@
         "lng": -72.6167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.887Z"
+      "scrapedAt": "2026-04-18T23:00:04.814Z"
     },
     {
-      "id": "golf_1776549038888_0.6032490039713108",
+      "id": "golf_1776553204815_0.7988655892906167",
       "name": "Golf Hériot",
       "openingDate": "À déterminer",
       "region": "Centre-du-Québec",
@@ -408,10 +408,10 @@
         "lng": -72.6167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.888Z"
+      "scrapedAt": "2026-04-18T23:00:04.815Z"
     },
     {
-      "id": "golf_1776549038892_0.24958286809852037",
+      "id": "golf_1776553204817_0.02690120983598887",
       "name": "Golf Monty",
       "openingDate": "À déterminer",
       "region": "Centre-du-Québec",
@@ -420,10 +420,10 @@
         "lng": -72.6167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.892Z"
+      "scrapedAt": "2026-04-18T23:00:04.817Z"
     },
     {
-      "id": "golf_1776549038900_0.568631793204116",
+      "id": "golf_1776553204817_0.6175560880272135",
       "name": "Baie St-Paul",
       "openingDate": "À déterminer",
       "region": "Charlevoix",
@@ -432,10 +432,10 @@
         "lng": -71.208
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.900Z"
+      "scrapedAt": "2026-04-18T23:00:04.817Z"
     },
     {
-      "id": "golf_1776549038901_0.09929818306029081",
+      "id": "golf_1776553204818_0.5951302096621303",
       "name": "Golf l’Auberivière",
       "openingDate": "À déterminer",
       "region": "Chaudière-Appalaches",
@@ -444,10 +444,10 @@
         "lng": -70.9167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.901Z"
+      "scrapedAt": "2026-04-18T23:00:04.818Z"
     },
     {
-      "id": "golf_1776549038903_0.1227051725502275",
+      "id": "golf_1776553204818_0.5504362036794239",
       "name": "Golf Beauceville",
       "openingDate": "À déterminer",
       "region": "Chaudière-Appalaches",
@@ -456,10 +456,10 @@
         "lng": -70.9167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.903Z"
+      "scrapedAt": "2026-04-18T23:00:04.818Z"
     },
     {
-      "id": "golf_1776549038905_0.43283896557940627",
+      "id": "golf_1776553204818_0.01457966446539638",
       "name": "Golf Bellechasse",
       "openingDate": "À déterminer",
       "region": "Chaudière-Appalaches",
@@ -468,10 +468,10 @@
         "lng": -70.9167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.905Z"
+      "scrapedAt": "2026-04-18T23:00:04.818Z"
     },
     {
-      "id": "golf_1776549038906_0.3412801208779219",
+      "id": "golf_1776553204819_0.17713172828891155",
       "name": "Golf Beaurivage",
       "openingDate": "À déterminer",
       "region": "Chaudière-Appalaches",
@@ -480,10 +480,10 @@
         "lng": -70.9167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.906Z"
+      "scrapedAt": "2026-04-18T23:00:04.819Z"
     },
     {
-      "id": "golf_1776549038912_0.715209920370754",
+      "id": "golf_1776553204820_0.8741669163946872",
       "name": "Golf Lac-Etchemin",
       "openingDate": "À déterminer",
       "region": "Chaudière-Appalaches",
@@ -492,10 +492,10 @@
         "lng": -70.9167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.912Z"
+      "scrapedAt": "2026-04-18T23:00:04.820Z"
     },
     {
-      "id": "golf_1776549038914_0.4724070463922436",
+      "id": "golf_1776553204820_0.7484189292083299",
       "name": "Golf Lac Poulin",
       "openingDate": "À déterminer",
       "region": "Chaudière-Appalaches",
@@ -504,10 +504,10 @@
         "lng": -70.9167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.914Z"
+      "scrapedAt": "2026-04-18T23:00:04.820Z"
     },
     {
-      "id": "golf_1776549038915_0.6474047201998261",
+      "id": "golf_1776553204821_0.606726405682585",
       "name": "Golf Lévis",
       "openingDate": "À déterminer",
       "region": "Chaudière-Appalaches",
@@ -516,10 +516,10 @@
         "lng": -70.9167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.915Z"
+      "scrapedAt": "2026-04-18T23:00:04.821Z"
     },
     {
-      "id": "golf_1776549038915_0.24840746948794812",
+      "id": "golf_1776553204821_0.6926991444172512",
       "name": "Golf Lotbinière",
       "openingDate": "À déterminer",
       "region": "Chaudière-Appalaches",
@@ -528,10 +528,10 @@
         "lng": -70.9167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.915Z"
+      "scrapedAt": "2026-04-18T23:00:04.821Z"
     },
     {
-      "id": "golf_1776549038916_0.12455922634513428",
+      "id": "golf_1776553204821_0.005593320078941311",
       "name": "Golf Mont Adstock",
       "openingDate": "À déterminer",
       "region": "Chaudière-Appalaches",
@@ -540,10 +540,10 @@
         "lng": -70.9167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.916Z"
+      "scrapedAt": "2026-04-18T23:00:04.821Z"
     },
     {
-      "id": "golf_1776549038917_0.18824232382038142",
+      "id": "golf_1776553204822_0.5532882500524401",
       "name": "Golf St-Étienne",
       "openingDate": "À déterminer",
       "region": "Chaudière-Appalaches",
@@ -552,10 +552,10 @@
         "lng": -70.9167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.917Z"
+      "scrapedAt": "2026-04-18T23:00:04.822Z"
     },
     {
-      "id": "golf_1776549038919_0.10576441360317279",
+      "id": "golf_1776553204822_0.34455702686405054",
       "name": "Golf St-Georges",
       "openingDate": "À déterminer",
       "region": "Chaudière-Appalaches",
@@ -564,10 +564,10 @@
         "lng": -70.9167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.919Z"
+      "scrapedAt": "2026-04-18T23:00:04.822Z"
     },
     {
-      "id": "golf_1776549038920_0.9929528936811034",
+      "id": "golf_1776553204823_0.7625665558293453",
       "name": "Golf Ste-Marie",
       "openingDate": "À déterminer",
       "region": "Chaudière-Appalaches",
@@ -576,10 +576,10 @@
         "lng": -70.9167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.920Z"
+      "scrapedAt": "2026-04-18T23:00:04.823Z"
     },
     {
-      "id": "golf_1776549038923_0.3508918151235725",
+      "id": "golf_1776553204824_0.5194772379425676",
       "name": "Golf Thetford Mines",
       "openingDate": "À déterminer",
       "region": "Chaudière-Appalaches",
@@ -588,10 +588,10 @@
         "lng": -70.9167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.923Z"
+      "scrapedAt": "2026-04-18T23:00:04.824Z"
     },
     {
-      "id": "golf_1776549038925_0.49197862766640355",
+      "id": "golf_1776553204827_0.8416093069689401",
       "name": "Golf Trois-Saumons",
       "openingDate": "À déterminer",
       "region": "Chaudière-Appalaches",
@@ -600,10 +600,10 @@
         "lng": -70.9167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.925Z"
+      "scrapedAt": "2026-04-18T23:00:04.827Z"
     },
     {
-      "id": "golf_1776549038932_0.6447922593057276",
+      "id": "golf_1776553204828_0.9287087610868132",
       "name": "Golf Sainte-Marguerite",
       "openingDate": "À déterminer",
       "region": "Côte-Nord",
@@ -612,10 +612,10 @@
         "lng": -67.1333
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.932Z"
+      "scrapedAt": "2026-04-18T23:00:04.828Z"
     },
     {
-      "id": "golf_1776549038945_0.1855480630823294",
+      "id": "golf_1776553204829_0.28750746852601505",
       "name": "Golf Tadoussac",
       "openingDate": "À déterminer",
       "region": "Côte-Nord",
@@ -624,10 +624,10 @@
         "lng": -67.1333
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.945Z"
+      "scrapedAt": "2026-04-18T23:00:04.829Z"
     },
     {
-      "id": "golf_1776549038947_0.6264153918265263",
+      "id": "golf_1776553204829_0.5266940756427221",
       "name": "Golf Carleton-sur-Mer",
       "openingDate": "À déterminer",
       "region": "Gaspésie",
@@ -636,10 +636,10 @@
         "lng": -66.6017
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.947Z"
+      "scrapedAt": "2026-04-18T23:00:04.829Z"
     },
     {
-      "id": "golf_1776549038955_0.28606734001212386",
+      "id": "golf_1776553204830_0.170927988625315",
       "name": "Golf Base de Roc",
       "openingDate": "À déterminer",
       "region": "Lanaudière",
@@ -648,10 +648,10 @@
         "lng": -73.2167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.955Z"
+      "scrapedAt": "2026-04-18T23:00:04.830Z"
     },
     {
-      "id": "golf_1776549038956_0.23209808117420638",
+      "id": "golf_1776553204830_0.7602259440081967",
       "name": "Golf Berthier",
       "openingDate": "À déterminer",
       "region": "Lanaudière",
@@ -660,10 +660,10 @@
         "lng": -73.2167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.956Z"
+      "scrapedAt": "2026-04-18T23:00:04.830Z"
     },
     {
-      "id": "golf_1776549038958_0.9228205226476986",
+      "id": "golf_1776553204830_0.19317410521837686",
       "name": "Golf L’Épiphanie",
       "openingDate": "À déterminer",
       "region": "Lanaudière",
@@ -672,10 +672,10 @@
         "lng": -73.2167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.958Z"
+      "scrapedAt": "2026-04-18T23:00:04.830Z"
     },
     {
-      "id": "golf_1776549038959_0.3586863933697093",
+      "id": "golf_1776553204830_0.3031961612647074",
       "name": "Golf Joliette",
       "openingDate": "À déterminer",
       "region": "Lanaudière",
@@ -684,10 +684,10 @@
         "lng": -73.2167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.959Z"
+      "scrapedAt": "2026-04-18T23:00:04.830Z"
     },
     {
-      "id": "golf_1776549038967_0.6924428699015774",
+      "id": "golf_1776553204831_0.8704610194847873",
       "name": "Golf Montcalm",
       "openingDate": "À déterminer",
       "region": "Lanaudière",
@@ -696,10 +696,10 @@
         "lng": -73.2167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.967Z"
+      "scrapedAt": "2026-04-18T23:00:04.831Z"
     },
     {
-      "id": "golf_1776549039006_0.23278460292931658",
+      "id": "golf_1776553204832_0.45935848981562444",
       "name": "Golf Rawdon",
       "openingDate": "À déterminer",
       "region": "Lanaudière",
@@ -708,10 +708,10 @@
         "lng": -73.2167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.006Z"
+      "scrapedAt": "2026-04-18T23:00:04.832Z"
     },
     {
-      "id": "golf_1776549039031_0.3142030466574537",
+      "id": "golf_1776553204833_0.8221807323857953",
       "name": "Golf Matha ( St-Jean-de-Matha (Matha)",
       "openingDate": "À déterminer",
       "region": "Lanaudière",
@@ -720,10 +720,10 @@
         "lng": -73.2167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.031Z"
+      "scrapedAt": "2026-04-18T23:00:04.833Z"
     },
     {
-      "id": "golf_1776549039032_0.3282416310559395",
+      "id": "golf_1776553204833_0.6789661674841172",
       "name": "Golf de Terrebonne",
       "openingDate": "À déterminer",
       "region": "Lanaudière",
@@ -732,10 +732,10 @@
         "lng": -73.2167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.032Z"
+      "scrapedAt": "2026-04-18T23:00:04.833Z"
     },
     {
-      "id": "golf_1776549039033_0.6227896935436077",
+      "id": "golf_1776553204833_0.5489656865318697",
       "name": "Golf Arundel",
       "openingDate": "À déterminer",
       "region": "Laurentides",
@@ -744,10 +744,10 @@
         "lng": -74.9847
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.033Z"
+      "scrapedAt": "2026-04-18T23:00:04.833Z"
     },
     {
-      "id": "golf_1776549039034_0.5124290326028282",
+      "id": "golf_1776553204834_0.07637574655556278",
       "name": "Golf Bel-Air",
       "openingDate": "À déterminer",
       "region": "Laurentides",
@@ -756,10 +756,10 @@
         "lng": -74.9847
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.034Z"
+      "scrapedAt": "2026-04-18T23:00:04.834Z"
     },
     {
-      "id": "golf_1776549039043_0.4553590309002362",
+      "id": "golf_1776553204834_0.6841033921327151",
       "name": "Golf Le Champêtre",
       "openingDate": "À déterminer",
       "region": "Laurentides",
@@ -768,10 +768,10 @@
         "lng": -74.9847
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.043Z"
+      "scrapedAt": "2026-04-18T23:00:04.834Z"
     },
     {
-      "id": "golf_1776549039050_0.6692646487399494",
+      "id": "golf_1776553204836_0.6790337288858794",
       "name": "Golf Les Ruisseaux",
       "openingDate": "À déterminer",
       "region": "Laurentides",
@@ -780,10 +780,10 @@
         "lng": -74.9847
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.050Z"
+      "scrapedAt": "2026-04-18T23:00:04.836Z"
     },
     {
-      "id": "golf_1776549039057_0.8032807983725707",
+      "id": "golf_1776553204837_0.5148560153212605",
       "name": "Golf Lorraine",
       "openingDate": "À déterminer",
       "region": "Laurentides",
@@ -792,10 +792,10 @@
         "lng": -74.9847
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.057Z"
+      "scrapedAt": "2026-04-18T23:00:04.837Z"
     },
     {
-      "id": "golf_1776549039058_0.3193670817840808",
+      "id": "golf_1776553204837_0.6490333387777003",
       "name": "Golf Manitou",
       "openingDate": "À déterminer",
       "region": "Laurentides",
@@ -804,10 +804,10 @@
         "lng": -74.9847
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.058Z"
+      "scrapedAt": "2026-04-18T23:00:04.837Z"
     },
     {
-      "id": "golf_1776549039058_0.8467547021089199",
+      "id": "golf_1776553204838_0.9388720792256846",
       "name": "Golf Mirabel",
       "openingDate": "À déterminer",
       "region": "Laurentides",
@@ -816,10 +816,10 @@
         "lng": -74.9847
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.058Z"
+      "scrapedAt": "2026-04-18T23:00:04.838Z"
     },
     {
-      "id": "golf_1776549039059_0.20661982795659917",
+      "id": "golf_1776553204838_0.9213559318508779",
       "name": "Golf Piedmont",
       "openingDate": "À déterminer",
       "region": "Laurentides",
@@ -828,10 +828,10 @@
         "lng": -74.9847
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.059Z"
+      "scrapedAt": "2026-04-18T23:00:04.838Z"
     },
     {
-      "id": "golf_1776549039060_0.1784364886399772",
+      "id": "golf_1776553204838_0.22246457797778452",
       "name": "Golf Royal Laurentien",
       "openingDate": "À déterminer",
       "region": "Laurentides",
@@ -840,10 +840,10 @@
         "lng": -74.9847
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.060Z"
+      "scrapedAt": "2026-04-18T23:00:04.838Z"
     },
     {
-      "id": "golf_1776549039061_0.09536600165835063",
+      "id": "golf_1776553204839_0.020240764134747957",
       "name": "Golf St-Janvier",
       "openingDate": "À déterminer",
       "region": "Laurentides",
@@ -852,10 +852,10 @@
         "lng": -74.9847
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.061Z"
+      "scrapedAt": "2026-04-18T23:00:04.839Z"
     },
     {
-      "id": "golf_1776549039078_0.5496014028128404",
+      "id": "golf_1776553204841_0.8261289515653434",
       "name": "Golf St-Jérôme",
       "openingDate": "À déterminer",
       "region": "Laurentides",
@@ -864,10 +864,10 @@
         "lng": -74.9847
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.078Z"
+      "scrapedAt": "2026-04-18T23:00:04.841Z"
     },
     {
-      "id": "golf_1776549039093_0.23996587549737858",
+      "id": "golf_1776553204843_0.9598068166066949",
       "name": "Golf Val-Morin",
       "openingDate": "À déterminer",
       "region": "Laurentides",
@@ -876,10 +876,10 @@
         "lng": -74.9847
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.093Z"
+      "scrapedAt": "2026-04-18T23:00:04.843Z"
     },
     {
-      "id": "golf_1776549039094_0.544667867339347",
+      "id": "golf_1776553204844_0.6683419411141347",
       "name": "Golf Vallée de la Lièvre",
       "openingDate": "À déterminer",
       "region": "Laurentides",
@@ -888,10 +888,10 @@
         "lng": -74.9847
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.094Z"
+      "scrapedAt": "2026-04-18T23:00:04.844Z"
     },
     {
-      "id": "golf_1776549039097_0.9814865010402636",
+      "id": "golf_1776553204846_0.9841465021756526",
       "name": "Golf St-François",
       "openingDate": "À déterminer",
       "region": "Laval",
@@ -900,10 +900,10 @@
         "lng": -73.7392
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.097Z"
+      "scrapedAt": "2026-04-18T23:00:04.846Z"
     },
     {
-      "id": "golf_1776549039099_0.6225553264518093",
+      "id": "golf_1776553204846_0.20849557543841035",
       "name": "Golf Ste-Rose",
       "openingDate": "À déterminer",
       "region": "Laval",
@@ -912,10 +912,10 @@
         "lng": -73.7392
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.099Z"
+      "scrapedAt": "2026-04-18T23:00:04.846Z"
     },
     {
-      "id": "golf_1776549039103_0.4508530010758858",
+      "id": "golf_1776553204846_0.34507150527506725",
       "name": "Golf UFO",
       "openingDate": "À déterminer",
       "region": "Laval",
@@ -924,10 +924,10 @@
         "lng": -73.7392
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.103Z"
+      "scrapedAt": "2026-04-18T23:00:04.846Z"
     },
     {
-      "id": "golf_1776549039107_0.3095325990746165",
+      "id": "golf_1776553204847_0.03949027093280377",
       "name": "Golf Du Moulin",
       "openingDate": "À déterminer",
       "region": "Mauricie",
@@ -936,10 +936,10 @@
         "lng": -72.5449
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.107Z"
+      "scrapedAt": "2026-04-18T23:00:04.847Z"
     },
     {
-      "id": "golf_1776549039108_0.8487715595976268",
+      "id": "golf_1776553204847_0.5287526646114842",
       "name": "Golf Grand-Mère",
       "openingDate": "À déterminer",
       "region": "Mauricie",
@@ -948,10 +948,10 @@
         "lng": -72.5449
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.108Z"
+      "scrapedAt": "2026-04-18T23:00:04.847Z"
     },
     {
-      "id": "golf_1776549039109_0.26990411590068764",
+      "id": "golf_1776553204847_0.21861394993731098",
       "name": "Golf Ki-8-Eb",
       "openingDate": "À déterminer",
       "region": "Mauricie",
@@ -960,10 +960,10 @@
         "lng": -72.5449
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.109Z"
+      "scrapedAt": "2026-04-18T23:00:04.847Z"
     },
     {
-      "id": "golf_1776549039110_0.7091874079132481",
+      "id": "golf_1776553204847_0.7397953336042249",
       "name": "Golf La Tuque",
       "openingDate": "À déterminer",
       "region": "Mauricie",
@@ -972,10 +972,10 @@
         "lng": -72.5449
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.110Z"
+      "scrapedAt": "2026-04-18T23:00:04.847Z"
     },
     {
-      "id": "golf_1776549039124_0.5981078639320092",
+      "id": "golf_1776553204848_0.3539755121060584",
       "name": "Golf Les Rivières",
       "openingDate": "À déterminer",
       "region": "Mauricie",
@@ -984,10 +984,10 @@
         "lng": -72.5449
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.124Z"
+      "scrapedAt": "2026-04-18T23:00:04.848Z"
     },
     {
-      "id": "golf_1776549039140_0.1937960443131681",
+      "id": "golf_1776553204848_0.5742323198168293",
       "name": "Golf Métabéroutin",
       "openingDate": "À déterminer",
       "region": "Mauricie",
@@ -996,10 +996,10 @@
         "lng": -72.5449
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.140Z"
+      "scrapedAt": "2026-04-18T23:00:04.848Z"
     },
     {
-      "id": "golf_1776549039142_0.8691259973410226",
+      "id": "golf_1776553204849_0.4940178320321611",
       "name": "Golf Ste-Flore",
       "openingDate": "À déterminer",
       "region": "Mauricie",
@@ -1008,10 +1008,10 @@
         "lng": -72.5449
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.142Z"
+      "scrapedAt": "2026-04-18T23:00:04.849Z"
     },
     {
-      "id": "golf_1776549039147_0.6835399377395774",
+      "id": "golf_1776553204849_0.005003595470667088",
       "name": "Golf Atlantide",
       "openingDate": "À déterminer",
       "region": "Montérégie",
@@ -1020,10 +1020,10 @@
         "lng": -73.5167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.147Z"
+      "scrapedAt": "2026-04-18T23:00:04.849Z"
     },
     {
-      "id": "golf_1776549039148_0.5253011952334545",
+      "id": "golf_1776553204850_0.6690927624189442",
       "name": "Golf Beloeil",
       "openingDate": "À déterminer",
       "region": "Montérégie",
@@ -1032,10 +1032,10 @@
         "lng": -73.5167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.148Z"
+      "scrapedAt": "2026-04-18T23:00:04.850Z"
     },
     {
-      "id": "golf_1776549039149_0.5152120196191952",
+      "id": "golf_1776553204850_0.32162713648029806",
       "name": "Golf Belle Vue",
       "openingDate": "À déterminer",
       "region": "Montérégie",
@@ -1044,10 +1044,10 @@
         "lng": -73.5167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.149Z"
+      "scrapedAt": "2026-04-18T23:00:04.850Z"
     },
     {
-      "id": "golf_1776549039150_0.8173649109087189",
+      "id": "golf_1776553204851_0.7026765695726325",
       "name": "Golf Continental",
       "openingDate": "À déterminer",
       "region": "Montérégie",
@@ -1056,10 +1056,10 @@
         "lng": -73.5167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.150Z"
+      "scrapedAt": "2026-04-18T23:00:04.851Z"
     },
     {
-      "id": "golf_1776549039151_0.39872517659534723",
+      "id": "golf_1776553204851_0.22328780247636448",
       "name": "Golf Cowansville",
       "openingDate": "À déterminer",
       "region": "Montérégie",
@@ -1068,10 +1068,10 @@
         "lng": -73.5167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.151Z"
+      "scrapedAt": "2026-04-18T23:00:04.852Z"
     },
     {
-      "id": "golf_1776549039158_0.45442520612943227",
+      "id": "golf_1776553204852_0.34810627471319333",
       "name": "Golf Domaine de Rouville",
       "openingDate": "À déterminer",
       "region": "Montérégie",
@@ -1080,10 +1080,10 @@
         "lng": -73.5167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.158Z"
+      "scrapedAt": "2026-04-18T23:00:04.852Z"
     },
     {
-      "id": "golf_1776549039172_0.26487439929826295",
+      "id": "golf_1776553204853_0.16683890710829763",
       "name": "Golf Hemmingford",
       "openingDate": "À déterminer",
       "region": "Montérégie",
@@ -1092,10 +1092,10 @@
         "lng": -73.5167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.172Z"
+      "scrapedAt": "2026-04-18T23:00:04.853Z"
     },
     {
-      "id": "golf_1776549039188_0.9785313918239229",
+      "id": "golf_1776553204854_0.7281102708084253",
       "name": "Golf La Madeleine",
       "openingDate": "À déterminer",
       "region": "Montérégie",
@@ -1104,10 +1104,10 @@
         "lng": -73.5167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.188Z"
+      "scrapedAt": "2026-04-18T23:00:04.854Z"
     },
     {
-      "id": "golf_1776549039200_0.7052785296877861",
+      "id": "golf_1776553204857_0.574595061670967",
       "name": "Golf Les Dunes",
       "openingDate": "À déterminer",
       "region": "Montérégie",
@@ -1116,10 +1116,10 @@
         "lng": -73.5167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.200Z"
+      "scrapedAt": "2026-04-18T23:00:04.857Z"
     },
     {
-      "id": "golf_1776549039202_0.8862291670374682",
+      "id": "golf_1776553204858_0.6151203051770757",
       "name": "Golf Ormstown",
       "openingDate": "À déterminer",
       "region": "Montérégie",
@@ -1128,10 +1128,10 @@
         "lng": -73.5167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.202Z"
+      "scrapedAt": "2026-04-18T23:00:04.858Z"
     },
     {
-      "id": "golf_1776549039221_0.364370125567806",
+      "id": "golf_1776553204861_0.6473546497691172",
       "name": "Golf Rivière-Beaudette",
       "openingDate": "À déterminer",
       "region": "Montérégie",
@@ -1140,10 +1140,10 @@
         "lng": -73.5167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.221Z"
+      "scrapedAt": "2026-04-18T23:00:04.861Z"
     },
     {
-      "id": "golf_1776549039222_0.7147344657495842",
+      "id": "golf_1776553204862_0.45483293597188945",
       "name": "Golf Rivière Rouge",
       "openingDate": "À déterminer",
       "region": "Montérégie",
@@ -1152,10 +1152,10 @@
         "lng": -73.5167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.222Z"
+      "scrapedAt": "2026-04-18T23:00:04.862Z"
     },
     {
-      "id": "golf_1776549039224_0.1559656617803471",
+      "id": "golf_1776553204863_0.2185429214239576",
       "name": "Golf Rougemont",
       "openingDate": "À déterminer",
       "region": "Montérégie",
@@ -1164,10 +1164,10 @@
         "lng": -73.5167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.224Z"
+      "scrapedAt": "2026-04-18T23:00:04.863Z"
     },
     {
-      "id": "golf_1776549039225_0.05961389762359648",
+      "id": "golf_1776553204864_0.07151977057717396",
       "name": "Golf St-Anicet",
       "openingDate": "À déterminer",
       "region": "Montérégie",
@@ -1176,10 +1176,10 @@
         "lng": -73.5167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.225Z"
+      "scrapedAt": "2026-04-18T23:00:04.864Z"
     },
     {
-      "id": "golf_1776549039226_0.8817720157464732",
+      "id": "golf_1776553204864_0.012339609947630725",
       "name": "Golf St-Césaire",
       "openingDate": "À déterminer",
       "region": "Montérégie",
@@ -1188,10 +1188,10 @@
         "lng": -73.5167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.226Z"
+      "scrapedAt": "2026-04-18T23:00:04.864Z"
     },
     {
-      "id": "golf_1776549039233_0.2911475470496514",
+      "id": "golf_1776553204865_0.0899206429652133",
       "name": "Golf St-Jean",
       "openingDate": "À déterminer",
       "region": "Montérégie",
@@ -1200,10 +1200,10 @@
         "lng": -73.5167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.233Z"
+      "scrapedAt": "2026-04-18T23:00:04.865Z"
     },
     {
-      "id": "golf_1776549039234_0.5383398695332393",
+      "id": "golf_1776553204866_0.09258222748536804",
       "name": "Golf St-Lambert",
       "openingDate": "À déterminer",
       "region": "Montérégie",
@@ -1212,10 +1212,10 @@
         "lng": -73.5167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.234Z"
+      "scrapedAt": "2026-04-18T23:00:04.866Z"
     },
     {
-      "id": "golf_1776549039240_0.44500406957315786",
+      "id": "golf_1776553204866_0.053602939963854235",
       "name": "Golf St-Zotique",
       "openingDate": "À déterminer",
       "region": "Montérégie",
@@ -1224,10 +1224,10 @@
         "lng": -73.5167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.240Z"
+      "scrapedAt": "2026-04-18T23:00:04.866Z"
     },
     {
-      "id": "golf_1776549039242_0.678216139619533",
+      "id": "golf_1776553204866_0.16926696215260129",
       "name": "Golf Triangle d’Or",
       "openingDate": "À déterminer",
       "region": "Montérégie",
@@ -1236,10 +1236,10 @@
         "lng": -73.5167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.242Z"
+      "scrapedAt": "2026-04-18T23:00:04.866Z"
     },
     {
-      "id": "golf_1776549039243_0.7697235464451062",
+      "id": "golf_1776553204867_0.9125649702913321",
       "name": "Golf Vallée des Forts",
       "openingDate": "À déterminer",
       "region": "Montérégie",
@@ -1248,10 +1248,10 @@
         "lng": -73.5167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.243Z"
+      "scrapedAt": "2026-04-18T23:00:04.867Z"
     },
     {
-      "id": "golf_1776549039254_0.606451214771121",
+      "id": "golf_1776553204868_0.5009811526461678",
       "name": "Golf Verchères",
       "openingDate": "À déterminer",
       "region": "Montérégie",
@@ -1260,10 +1260,10 @@
         "lng": -73.5167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.254Z"
+      "scrapedAt": "2026-04-18T23:00:04.868Z"
     },
     {
-      "id": "golf_1776549039256_0.35477405677057905",
+      "id": "golf_1776553204868_0.5573267461644946",
       "name": "Golf Dorval",
       "openingDate": "À déterminer",
       "region": "Montréal",
@@ -1272,10 +1272,10 @@
         "lng": -73.5673
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.256Z"
+      "scrapedAt": "2026-04-18T23:00:04.868Z"
     },
     {
-      "id": "golf_1776549039258_0.997262983988288",
+      "id": "golf_1776553204868_0.022518520795496766",
       "name": "Golf de l’Île de Montréal",
       "openingDate": "À déterminer",
       "region": "Montréal",
@@ -1284,10 +1284,10 @@
         "lng": -73.5673
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.258Z"
+      "scrapedAt": "2026-04-18T23:00:04.868Z"
     },
     {
-      "id": "golf_1776549039261_0.09236296370286157",
+      "id": "golf_1776553204868_0.26288065693245954",
       "name": "Golf îles de Bourcherville",
       "openingDate": "À déterminer",
       "region": "Montréal",
@@ -1296,10 +1296,10 @@
         "lng": -73.5673
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.261Z"
+      "scrapedAt": "2026-04-18T23:00:04.868Z"
     },
     {
-      "id": "golf_1776549039269_0.15294215284282098",
+      "id": "golf_1776553204869_0.19767893632704414",
       "name": "Golf St-Raphaël",
       "openingDate": "À déterminer",
       "region": "Montréal",
@@ -1308,10 +1308,10 @@
         "lng": -73.5673
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.269Z"
+      "scrapedAt": "2026-04-18T23:00:04.869Z"
     },
     {
-      "id": "golf_1776549039271_0.8987964642645079",
+      "id": "golf_1776553204870_0.2731779953212361",
       "name": "Golf Algonquin",
       "openingDate": "À déterminer",
       "region": "Outaouais",
@@ -1320,10 +1320,10 @@
         "lng": -75.6972
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.271Z"
+      "scrapedAt": "2026-04-18T23:00:04.870Z"
     },
     {
-      "id": "golf_1776549039277_0.9176439251066815",
+      "id": "golf_1776553204871_0.21199074442999066",
       "name": "Golf du parc Kingsway",
       "openingDate": "À déterminer",
       "region": "Outaouais",
@@ -1332,10 +1332,10 @@
         "lng": -75.6972
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.277Z"
+      "scrapedAt": "2026-04-18T23:00:04.871Z"
     },
     {
-      "id": "golf_1776549039283_0.7542685037088566",
+      "id": "golf_1776553204872_0.1733657567719138",
       "name": "Golf Fairmont Le Château Montebello",
       "openingDate": "À déterminer",
       "region": "Outaouais",
@@ -1344,10 +1344,10 @@
         "lng": -75.6972
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.283Z"
+      "scrapedAt": "2026-04-18T23:00:04.872Z"
     },
     {
-      "id": "golf_1776549039286_0.8639835076521358",
+      "id": "golf_1776553204875_0.2845478444298344",
       "name": "Golf Champlain",
       "openingDate": "À déterminer",
       "region": "Outaouais",
@@ -1356,10 +1356,10 @@
         "lng": -75.6972
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.286Z"
+      "scrapedAt": "2026-04-18T23:00:04.875Z"
     },
     {
-      "id": "golf_1776549039287_0.8365202891282577",
+      "id": "golf_1776553204877_0.9776780153346991",
       "name": "Golf Gatineau",
       "openingDate": "À déterminer",
       "region": "Outaouais",
@@ -1368,10 +1368,10 @@
         "lng": -75.6972
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.287Z"
+      "scrapedAt": "2026-04-18T23:00:04.877Z"
     },
     {
-      "id": "golf_1776549039289_0.891313187379922",
+      "id": "golf_1776553204879_0.770223196472628",
       "name": "Golf Lac Simon / Montpellier",
       "openingDate": "À déterminer",
       "region": "Outaouais",
@@ -1380,10 +1380,10 @@
         "lng": -75.6972
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.289Z"
+      "scrapedAt": "2026-04-18T23:00:04.879Z"
     },
     {
-      "id": "golf_1776549039290_0.15441704799890021",
+      "id": "golf_1776553204880_0.074075839283964",
       "name": "Golf et tennis Larrimac",
       "openingDate": "À déterminer",
       "region": "Outaouais",
@@ -1392,10 +1392,10 @@
         "lng": -75.6972
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.290Z"
+      "scrapedAt": "2026-04-18T23:00:04.880Z"
     },
     {
-      "id": "golf_1776549039297_0.3123983798210417",
+      "id": "golf_1776553204880_0.9848798718203897",
       "name": "Golf Le Sorcier",
       "openingDate": "À déterminer",
       "region": "Outaouais",
@@ -1404,10 +1404,10 @@
         "lng": -75.6972
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.297Z"
+      "scrapedAt": "2026-04-18T23:00:04.880Z"
     },
     {
-      "id": "golf_1776549039299_0.25042249653270177",
+      "id": "golf_1776553204881_0.6272782451752459",
       "name": "Golf Mont Cascades",
       "openingDate": "À déterminer",
       "region": "Outaouais",
@@ -1416,10 +1416,10 @@
         "lng": -75.6972
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.299Z"
+      "scrapedAt": "2026-04-18T23:00:04.881Z"
     },
     {
-      "id": "golf_1776549039299_0.258831060317108",
+      "id": "golf_1776553204881_0.6375844476511734",
       "name": "Golf Tecumseh",
       "openingDate": "À déterminer",
       "region": "Outaouais",
@@ -1428,10 +1428,10 @@
         "lng": -75.6972
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.299Z"
+      "scrapedAt": "2026-04-18T23:00:04.881Z"
     },
     {
-      "id": "golf_1776549039300_0.7293934490898444",
+      "id": "golf_1776553204882_0.027126553170436996",
       "name": "Golf Touraine",
       "openingDate": "À déterminer",
       "region": "Outaouais",
@@ -1440,10 +1440,10 @@
         "lng": -75.6972
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.300Z"
+      "scrapedAt": "2026-04-18T23:00:04.882Z"
     },
     {
-      "id": "golf_1776549039304_0.24756548162855685",
+      "id": "golf_1776553204882_0.5818622341571529",
       "name": "Golf Saguenay Arvida",
       "openingDate": "À déterminer",
       "region": "Saguenay – Lac-St-Jean",
@@ -1452,10 +1452,10 @@
         "lng": -71.208
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.304Z"
+      "scrapedAt": "2026-04-18T23:00:04.882Z"
     },
     {
-      "id": "golf_1776549039305_0.3327408809986403",
+      "id": "golf_1776553204882_0.9090899800639798",
       "name": "Golf Dolbeau-Mistassini",
       "openingDate": "À déterminer",
       "region": "Saguenay – Lac-St-Jean",
@@ -1464,10 +1464,10 @@
         "lng": -71.208
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.305Z"
+      "scrapedAt": "2026-04-18T23:00:04.882Z"
     },
     {
-      "id": "golf_1776549039306_0.6464414369327791",
+      "id": "golf_1776553204883_0.98400992511392",
       "name": "Golf Lac St-Jean",
       "openingDate": "À déterminer",
       "region": "Saguenay – Lac-St-Jean",
@@ -1476,10 +1476,10 @@
         "lng": -71.208
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.306Z"
+      "scrapedAt": "2026-04-18T23:00:04.883Z"
     },
     {
-      "id": "golf_1776549039307_0.43287105789105595",
+      "id": "golf_1776553204884_0.701988056723118",
       "name": "Golf Le Ricochet",
       "openingDate": "À déterminer",
       "region": "Saguenay – Lac-St-Jean",
@@ -1488,10 +1488,10 @@
         "lng": -71.208
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.307Z"
+      "scrapedAt": "2026-04-18T23:00:04.884Z"
     },
     {
-      "id": "golf_1776549039308_0.2932125928965832",
+      "id": "golf_1776553204885_0.46777823549401054",
       "name": "Golf St-Prime sur le Lac (GSP)",
       "openingDate": "À déterminer",
       "region": "Saguenay – Lac-St-Jean",
@@ -1500,10 +1500,10 @@
         "lng": -71.208
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.308Z"
+      "scrapedAt": "2026-04-18T23:00:04.885Z"
     },
     {
-      "id": "golf_1776549039309_0.4042417121293642",
+      "id": "golf_1776553204886_0.9561596143533924",
       "name": "Casselview",
       "openingDate": "À déterminer",
       "region": "Ontario-Est",
@@ -1512,10 +1512,10 @@
         "lng": -71.208
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.309Z"
+      "scrapedAt": "2026-04-18T23:00:04.886Z"
     },
     {
-      "id": "golf_1776549039311_0.7626564882403597",
+      "id": "golf_1776553204887_0.13252326671853254",
       "name": "Rockland",
       "openingDate": "À déterminer",
       "region": "Ontario-Est",
@@ -1524,10 +1524,10 @@
         "lng": -71.208
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.311Z"
+      "scrapedAt": "2026-04-18T23:00:04.887Z"
     },
     {
-      "id": "golf_1776549039312_0.5401769407295869",
+      "id": "golf_1776553204888_0.6501703151450848",
       "name": "Fraser Edmundston Golf Club",
       "openingDate": "À déterminer",
       "region": "Nouveau-Brunswick",
@@ -1536,34 +1536,34 @@
         "lng": -71.208
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.312Z"
+      "scrapedAt": "2026-04-18T23:00:04.888Z"
     },
     {
-      "id": "golf_1776549039184_0.815428374190676",
+      "id": "golf_1776553204854_0.9931925778811188",
       "name": "Golf L’Express",
       "openingDate": "8 mars",
       "region": "Montérégie",
       "coordinates": {
-        "lat": 45.5333,
-        "lng": -73.5167
+        "lat": 45.3883971,
+        "lng": -73.4283879
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.184Z"
+      "scrapedAt": "2026-04-18T23:00:04.854Z"
     },
     {
-      "id": "golf_1776549039196_0.26082257357173755",
+      "id": "golf_1776553204855_0.07244534154120386",
       "name": "Golf Les Cèdres",
       "openingDate": "9 mars",
       "region": "Montérégie",
       "coordinates": {
-        "lat": 45.5333,
-        "lng": -73.5167
+        "lat": 45.3488734,
+        "lng": -74.027144
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.196Z"
+      "scrapedAt": "2026-04-18T23:00:04.855Z"
     },
     {
-      "id": "golf_1776549038779_0.6515665188267294",
+      "id": "golf_1776553204793_0.988953857655567",
       "name": "Golf des Écossais",
       "openingDate": "30 mars",
       "region": "Cantons-de-l’Est",
@@ -1572,22 +1572,22 @@
         "lng": -71.208
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.779Z"
+      "scrapedAt": "2026-04-18T23:00:04.793Z"
     },
     {
-      "id": "golf_1776549039025_0.35597469014194116",
+      "id": "golf_1776553204832_0.47505413471852864",
       "name": "Golf Le Versant",
       "openingDate": "2 avril",
       "region": "Lanaudière",
       "coordinates": {
-        "lat": 46.2333,
-        "lng": -73.2167
+        "lat": 45.687291,
+        "lng": -73.7028251
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.025Z"
+      "scrapedAt": "2026-04-18T23:00:04.832Z"
     },
     {
-      "id": "golf_1776549039166_0.7143528739323954",
+      "id": "golf_1776553204852_0.2635044375968918",
       "name": "Golf Granby St-Paul",
       "openingDate": "3 avril",
       "region": "Montérégie",
@@ -1596,46 +1596,46 @@
         "lng": -73.5167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.166Z"
+      "scrapedAt": "2026-04-18T23:00:04.852Z"
     },
     {
-      "id": "golf_1776549038875_0.10627524312845926",
+      "id": "golf_1776553204811_0.14424417962215452",
       "name": "Golf L’Émeraude",
       "openingDate": "4 avril",
       "region": "Centre-du-Québec",
       "coordinates": {
-        "lat": 46.2333,
-        "lng": -72.6167
+        "lat": 45.9332209,
+        "lng": -72.6093734
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.875Z"
+      "scrapedAt": "2026-04-18T23:00:04.811Z"
     },
     {
-      "id": "golf_1776549039176_0.40920467573007224",
+      "id": "golf_1776553204853_0.8775139494755937",
       "name": "Golf International 2000",
       "openingDate": "6 avril",
       "region": "Montérégie",
       "coordinates": {
-        "lat": 45.5333,
-        "lng": -73.5167
+        "lat": 45.0122284,
+        "lng": -73.421323
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.176Z"
+      "scrapedAt": "2026-04-18T23:00:04.853Z"
     },
     {
-      "id": "golf_1776549039251_0.7351728516134166",
+      "id": "golf_1776553204867_0.5902027974919051",
       "name": "Golf Vaudreuil",
       "openingDate": "6 avril",
       "region": "Montérégie",
       "coordinates": {
-        "lat": 45.5333,
-        "lng": -73.5167
+        "lat": 45.3488734,
+        "lng": -74.027144
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.251Z"
+      "scrapedAt": "2026-04-18T23:00:04.867Z"
     },
     {
-      "id": "golf_1776549039310_0.2538843660388428",
+      "id": "golf_1776553204886_0.9453192283517726",
       "name": "Emerald Links Golf & Country Club",
       "openingDate": "9 avril",
       "region": "Ontario-Est",
@@ -1644,46 +1644,46 @@
         "lng": -71.208
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.310Z"
+      "scrapedAt": "2026-04-18T23:00:04.886Z"
     },
     {
-      "id": "golf_1776549038889_0.08422985216764278",
+      "id": "golf_1776553204816_0.03407111288734588",
       "name": "Golf Laurier",
       "openingDate": "10 avril",
       "region": "Centre-du-Québec",
       "coordinates": {
-        "lat": 46.2333,
-        "lng": -72.6167
+        "lat": 46.106903,
+        "lng": -71.8978071
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.889Z"
+      "scrapedAt": "2026-04-18T23:00:04.816Z"
     },
     {
-      "id": "golf_1776549038891_0.9468505967417664",
+      "id": "golf_1776553204816_0.7280531517958764",
       "name": "Golf Le Drummond",
       "openingDate": "10 avril",
       "region": "Centre-du-Québec",
       "coordinates": {
-        "lat": 46.2333,
-        "lng": -72.6167
+        "lat": 45.9558765,
+        "lng": -72.6069062
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.891Z"
+      "scrapedAt": "2026-04-18T23:00:04.816Z"
     },
     {
-      "id": "golf_1776549038960_0.1517430028030935",
+      "id": "golf_1776553204831_0.8392356234644749",
       "name": "Golf Lanaudière",
       "openingDate": "10 avril",
       "region": "Lanaudière",
       "coordinates": {
-        "lat": 46.2333,
-        "lng": -73.2167
+        "lat": 45.8020698,
+        "lng": -73.4630824
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.960Z"
+      "scrapedAt": "2026-04-18T23:00:04.831Z"
     },
     {
-      "id": "golf_1776549039049_0.526047639447843",
+      "id": "golf_1776553204836_0.9828448593478598",
       "name": "Golf Les Quatre Domaines (4D)",
       "openingDate": "10 avril",
       "region": "Laurentides",
@@ -1692,94 +1692,94 @@
         "lng": -74.9847
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.049Z"
+      "scrapedAt": "2026-04-18T23:00:04.836Z"
     },
     {
-      "id": "golf_1776549039190_0.9199533172595395",
+      "id": "golf_1776553204854_0.22942405874911653",
       "name": "Golf La Seigneurie",
       "openingDate": "10 avril",
       "region": "Montérégie",
       "coordinates": {
-        "lat": 45.5333,
-        "lng": -73.5167
+        "lat": 45.5895315,
+        "lng": -73.1753065
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.190Z"
+      "scrapedAt": "2026-04-18T23:00:04.854Z"
     },
     {
-      "id": "golf_1776549039214_0.6655887946500365",
+      "id": "golf_1776553204860_0.8955772821749193",
       "name": "Golf Rive-Sud",
       "openingDate": "10 avril",
       "region": "Montérégie",
       "coordinates": {
-        "lat": 45.5333,
-        "lng": -73.5167
+        "lat": 45.5050361,
+        "lng": -73.3041315
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.214Z"
+      "scrapedAt": "2026-04-18T23:00:04.860Z"
     },
     {
-      "id": "golf_1776549039245_0.6423947573071549",
+      "id": "golf_1776553204867_0.5862465299959327",
       "name": "Golf Valleyfield",
       "openingDate": "10 avril",
       "region": "Montérégie",
       "coordinates": {
-        "lat": 45.5333,
-        "lng": -73.5167
+        "lat": 45.2896217,
+        "lng": -74.1047463
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.247Z"
+      "scrapedAt": "2026-04-18T23:00:04.867Z"
     },
     {
-      "id": "golf_1776549038897_0.6432788861819696",
+      "id": "golf_1776553204817_0.3797423679895531",
       "name": "Golf Plessisville",
       "openingDate": "11 avril",
       "region": "Centre-du-Québec",
       "coordinates": {
-        "lat": 46.2333,
-        "lng": -72.6167
+        "lat": 46.2632294,
+        "lng": -71.7264147
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.897Z"
+      "scrapedAt": "2026-04-18T23:00:04.817Z"
     },
     {
-      "id": "golf_1776549038978_0.2601368227103005",
+      "id": "golf_1776553204831_0.8993666089123322",
       "name": "Golf Le Portage",
       "openingDate": "11 avril",
       "region": "Lanaudière",
       "coordinates": {
-        "lat": 46.2333,
-        "lng": -73.2167
+        "lat": 45.8347801,
+        "lng": -73.4384878
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.978Z"
+      "scrapedAt": "2026-04-18T23:00:04.831Z"
     },
     {
-      "id": "golf_1776549039053_0.8660728858249518",
+      "id": "golf_1776553204837_0.4058042995975384",
       "name": "Golf Le Select",
       "openingDate": "11 avril",
       "region": "Laurentides",
       "coordinates": {
-        "lat": 46.0088,
-        "lng": -74.9847
+        "lat": 45.6711078,
+        "lng": -74.2304851
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.053Z"
+      "scrapedAt": "2026-04-18T23:00:04.837Z"
     },
     {
-      "id": "golf_1776549039136_0.643382135844959",
+      "id": "golf_1776553204848_0.11491882548986343",
       "name": "Golf Marthelinois",
       "openingDate": "11 avril",
       "region": "Mauricie",
       "coordinates": {
-        "lat": 46.3639,
-        "lng": -72.5449
+        "lat": 46.384517,
+        "lng": -72.5069259
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.136Z"
+      "scrapedAt": "2026-04-18T23:00:04.848Z"
     },
     {
-      "id": "golf_1776549039310_0.8214440298193493",
+      "id": "golf_1776553204887_0.4362299933169924",
       "name": "Iroquois Golf Club",
       "openingDate": "11 avril",
       "region": "Ontario-Est",
@@ -1788,10 +1788,10 @@
         "lng": -71.208
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.310Z"
+      "scrapedAt": "2026-04-18T23:00:04.887Z"
     },
     {
-      "id": "golf_1776549038777_0.6944124027127769",
+      "id": "golf_1776553204788_0.10237903085706668",
       "name": "Golf de Coaticook",
       "openingDate": "12 avril",
       "region": "Cantons-de-l’Est",
@@ -1800,10 +1800,10 @@
         "lng": -71.208
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.777Z"
+      "scrapedAt": "2026-04-18T23:00:04.788Z"
     },
     {
-      "id": "golf_1776549038802_0.4478474898248841",
+      "id": "golf_1776553204798_0.6975518214622047",
       "name": "Golf Longchamp",
       "openingDate": "12 avril",
       "region": "Cantons-de-l’Est",
@@ -1812,58 +1812,58 @@
         "lng": -71.208
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.802Z"
+      "scrapedAt": "2026-04-18T23:00:04.798Z"
     },
     {
-      "id": "golf_1776549038899_0.0024395714697920123",
+      "id": "golf_1776553204817_0.06219821060994901",
       "name": "Golf Victoriaville",
       "openingDate": "13 avril",
       "region": "Centre-du-Québec",
       "coordinates": {
-        "lat": 46.2333,
-        "lng": -72.6167
+        "lat": 46.0455713,
+        "lng": -71.9442827
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.899Z"
+      "scrapedAt": "2026-04-18T23:00:04.817Z"
     },
     {
-      "id": "golf_1776549039096_0.9515788879285376",
+      "id": "golf_1776553204845_0.40724995309611445",
       "name": "Golf Cardinal",
       "openingDate": "13 avril",
       "region": "Laval",
       "coordinates": {
-        "lat": 45.5695,
-        "lng": -73.7392
+        "lat": 45.5354352,
+        "lng": -73.8484755
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.096Z"
+      "scrapedAt": "2026-04-18T23:00:04.845Z"
     },
     {
-      "id": "golf_1776549039146_0.9045347014552287",
+      "id": "golf_1776553204849_0.29791779872028923",
       "name": "Golf Acton Vale",
       "openingDate": "13 avril",
       "region": "Montérégie",
       "coordinates": {
-        "lat": 45.5333,
-        "lng": -73.5167
+        "lat": 45.6586634,
+        "lng": -72.5622497
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.146Z"
+      "scrapedAt": "2026-04-18T23:00:04.849Z"
     },
     {
-      "id": "golf_1776549039266_0.9563558233102278",
+      "id": "golf_1776553204869_0.4161354508398356",
       "name": "Golf Métropolitain d’Anjou",
       "openingDate": "14 avril",
       "region": "Montréal",
       "coordinates": {
-        "lat": 45.5017,
-        "lng": -73.5673
+        "lat": 45.62062,
+        "lng": -73.554641
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.266Z"
+      "scrapedAt": "2026-04-18T23:00:04.869Z"
     },
     {
-      "id": "golf_1776549038786_0.525623385218116",
+      "id": "golf_1776553204795_0.08447966917477023",
       "name": "Golf Milby",
       "openingDate": "16 avril",
       "region": "Cantons-de-l’Est",
@@ -1872,10 +1872,10 @@
         "lng": -71.208
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.786Z"
+      "scrapedAt": "2026-04-18T23:00:04.795Z"
     },
     {
-      "id": "golf_1776549038781_0.7304040305262529",
+      "id": "golf_1776553204793_0.4084157120833187",
       "name": "Golf de Farnham",
       "openingDate": "17 avril",
       "region": "Cantons-de-l’Est",
@@ -1884,10 +1884,10 @@
         "lng": -71.208
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.781Z"
+      "scrapedAt": "2026-04-18T23:00:04.793Z"
     },
     {
-      "id": "golf_1776549038807_0.25728217879184956",
+      "id": "golf_1776553204798_0.6446244707626163",
       "name": "Golf Royal Bromont",
       "openingDate": "17 avril",
       "region": "Cantons-de-l’Est",
@@ -1896,10 +1896,10 @@
         "lng": -71.208
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.807Z"
+      "scrapedAt": "2026-04-18T23:00:04.798Z"
     },
     {
-      "id": "golf_1776549038812_0.6693476516532475",
+      "id": "golf_1776553204799_0.13942659672792468",
       "name": "Golf Waterloo",
       "openingDate": "17 avril",
       "region": "Cantons-de-l’Est",
@@ -1908,10 +1908,10 @@
         "lng": -71.208
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.812Z"
+      "scrapedAt": "2026-04-18T23:00:04.799Z"
     },
     {
-      "id": "golf_1776549038813_0.11618634730366861",
+      "id": "golf_1776553204800_0.46036333585649203",
       "name": "Golf Waterville",
       "openingDate": "17 avril",
       "region": "Cantons-de-l’Est",
@@ -1920,34 +1920,34 @@
         "lng": -71.208
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.813Z"
+      "scrapedAt": "2026-04-18T23:00:04.800Z"
     },
     {
-      "id": "golf_1776549038881_0.30114852924336466",
+      "id": "golf_1776553204811_0.3873590771037103",
       "name": "Golf Bois-Francs",
       "openingDate": "17 avril",
       "region": "Centre-du-Québec",
       "coordinates": {
-        "lat": 46.2333,
-        "lng": -72.6167
+        "lat": 46.2185453,
+        "lng": -71.9357028
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.881Z"
+      "scrapedAt": "2026-04-18T23:00:04.811Z"
     },
     {
-      "id": "golf_1776549038907_0.28387265709777854",
+      "id": "golf_1776553204819_0.39070538193968574",
       "name": "Les Boisés de Joly",
       "openingDate": "17 avril",
       "region": "Chaudière-Appalaches",
       "coordinates": {
-        "lat": 46.4833,
-        "lng": -70.9167
+        "lat": 46.478596,
+        "lng": -71.6609864
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.907Z"
+      "scrapedAt": "2026-04-18T23:00:04.819Z"
     },
     {
-      "id": "golf_1776549039206_0.07375458101790522",
+      "id": "golf_1776553204860_0.26012734182515906",
       "name": "Golf Parcours du Cerf",
       "openingDate": "17 avril",
       "region": "Montérégie",
@@ -1956,22 +1956,22 @@
         "lng": -73.5167
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.206Z"
+      "scrapedAt": "2026-04-18T23:00:04.860Z"
     },
     {
-      "id": "golf_1776549039152_0.9731641179189041",
+      "id": "golf_1776553204852_0.4551126948972075",
       "name": "Golf des Patriotes",
       "openingDate": "18 avril",
       "region": "Montérégie",
       "coordinates": {
-        "lat": 45.5333,
-        "lng": -73.5167
+        "lat": 45.9445259,
+        "lng": -73.1383012
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.152Z"
+      "scrapedAt": "2026-04-18T23:00:04.852Z"
     },
     {
-      "id": "golf_1776549038782_0.9575486076487034",
+      "id": "golf_1776553204794_0.5997061786036411",
       "name": "Golf Manoir des Sables",
       "openingDate": "23 avril",
       "region": "Cantons-de-l’Est",
@@ -1980,10 +1980,10 @@
         "lng": -71.208
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.782Z"
+      "scrapedAt": "2026-04-18T23:00:04.794Z"
     },
     {
-      "id": "golf_1776549038808_0.7091417940997935",
+      "id": "golf_1776553204799_0.9166266905319449",
       "name": "Golf de Sherbrooke",
       "openingDate": "23 avril",
       "region": "Cantons-de-l’Est",
@@ -1992,31 +1992,31 @@
         "lng": -71.208
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:38.808Z"
+      "scrapedAt": "2026-04-18T23:00:04.799Z"
     },
     {
-      "id": "golf_1776549039047_0.05380761366321307",
+      "id": "golf_1776553204834_0.34015022764004965",
       "name": "Golf Le Diable",
       "openingDate": "8 mai",
       "region": "Laurentides",
       "coordinates": {
-        "lat": 46.0088,
-        "lng": -74.9847
+        "lat": 46.1812055,
+        "lng": -74.5945937
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.047Z"
+      "scrapedAt": "2026-04-18T23:00:04.834Z"
     },
     {
-      "id": "golf_1776549039048_0.8931530257426394",
+      "id": "golf_1776553204835_0.5760443710072096",
       "name": "Golf Le Géant",
       "openingDate": "5 juin",
       "region": "Laurentides",
       "coordinates": {
-        "lat": 46.0088,
-        "lng": -74.9847
+        "lat": 46.1964108,
+        "lng": -74.5880038
       },
       "url": null,
-      "scrapedAt": "2026-04-18T21:50:39.048Z"
+      "scrapedAt": "2026-04-18T23:00:04.835Z"
     }
   ]
 }

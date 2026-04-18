@@ -1,4 +1,4 @@
-import { Component, OnInit, inject, signal, computed } from '@angular/core';
+import { Component, OnInit, AfterViewInit, ViewChild, ElementRef, inject, signal, computed } from '@angular/core';
 
 import { GolfService, Golf } from '../../services/golf.service';
 
@@ -7,8 +7,54 @@ import { GolfService, Golf } from '../../services/golf.service';
   imports: [],
   template: `
     <div class="golf-list-container">
+
+      <div class="golfs-section">
+        @if (favoriteGolfs().length > 0) {
+          <div class="favorites-section">
+            <h3 class="section-title">⭐ Favoris ({{ favoriteGolfs().length }})</h3>
+            <div class="golfs-grid">
+              @for (golf of favoriteGolfs(); track golf.id) {
+                <div class="golf-card">
+                  <div class="golf-header">
+                    <div class="golf-header-title">
+                      <h3>{{ golf.name }}</h3>
+                      <button class="star-btn favorite" (click)="toggleFavorite(golf.id)" title="Retirer des favoris">
+                        ⭐
+                      </button>
+                    </div>
+                    <span class="region-badge">{{ golf.region }}</span>
+                  </div>
+                  <div class="golf-body">
+                    <div
+                      class="opening-date"
+                      [class.undetermined]="golf.openingDate === 'À déterminer'"
+                      [class.opened]="isOpened(golf.openingDate)"
+                    >
+                      <strong>{{ displayOuverture(golf.openingDate) }}</strong>
+                    </div>
+                    @if (golf.name && golf.region) {
+                      <div class="map-link">
+                        <a href="{{ displayMapLink(golf) }}" target="_blank" rel="noopener noreferrer">
+                          Ouvrir dans Google Maps
+                        </a>
+                      </div>
+                    }
+                  </div>
+                  <div class="golf-footer">
+                    <small>Mis à jour: {{ formatDate(golf.scrapedAt) }}</small>
+                  </div>
+                </div>
+              }
+            </div>
+          </div>
+        }
+
       <div class="controls">
-        <h2>Golfs du Québec, saison {{ currentYear }}</h2>
+        <h3 class="section-title">
+          @if(favoriteGolfs().length > 0)
+            {Autres golfs}
+          @else {Golfs du Québec, saison 2026}
+          ({{ otherGolfs().length }})</h3>
 
         <!-- <div class="control-buttons">
           <button (click)="refresh()" [disabled]="isLoading()">
@@ -22,67 +68,75 @@ import { GolfService, Golf } from '../../services/golf.service';
             <select (change)="changeSortBy($event)">
               <option value="date">Date d'ouverture</option>
               <option value="name">Nom du golf</option>
-              <option value="region">Région</option>
             </select>
           </label>
 
           <label>
             Région:
-            <select (change)="changeRegion($event)">
+            <select #regionSelect (change)="changeRegion($event)" [value]="selectedRegion()">
               <option value="">Tous les golfs</option>
               @for (region of regions(); track region) {
-                <option [value]="region">
+                <option [value]="region" [selected]="region === selectedRegion()">
                   {{ region }}
                 </option>
               }
             </select>
           </label>
-        </div>
-
-        <div class="checkbox-filter">
-          <label>
-            <input
-              type="checkbox"
-              (change)="toggleHideUndetermined()"
-              [checked]="hideUndetermined()"
-            />
-            Masquer les golfs sans date d'ouverture
-          </label>
+          <div class="checkbox-filter">
+              <label class="inline-checkbox">
+                <input
+                  type="checkbox"
+                  (change)="toggleHideUndetermined()"
+                  [checked]="hideUndetermined()"
+                />
+                Masquer les golfs sans date d'ouverture
+              </label>
+              </div>
         </div>
       </div>
 
-      <div class="golfs-grid">
-        @if (displayedGolfs().length === 0) {
-          <div class="no-golfs">
-            <p>{{ isLoading() ? 'Chargement...' : 'Aucun golf trouvé' }}</p>
-          </div>
-        }
-
-        @for (golf of displayedGolfs(); track golf.id) {
-          <div class="golf-card">
-            <div class="golf-header">
-              <h3>{{ golf.name }}</h3>
-              <span class="region-badge">{{ golf.region }}</span>
-            </div>
-            <div class="golf-body">
-              <div
-                class="opening-date"
-                [class.undetermined]="golf.openingDate === 'À déterminer'"
-                [class.opened]="isOpened(golf.openingDate)"
-              >
-                <strong>{{ displayOuverture(golf.openingDate) }}</strong>
-              </div>
-              @if (golf.name && golf.region) {
-                <div class="map-link">
-                  <a href="{{ displayMapLink(golf) }}" target="_blank" rel="noopener noreferrer">
-                    Ouvrir dans Google Maps
-                  </a>
+        @if (otherGolfs().length > 0) {
+          <div class="other-section">
+            <div class="golfs-grid">
+              @for (golf of otherGolfs(); track golf.id) {
+                <div class="golf-card">
+                  <div class="golf-header">
+                    <div class="golf-header-title">
+                      <h3>{{ golf.name }}</h3>
+                      <button class="star-btn" (click)="toggleFavorite(golf.id)" title="Ajouter aux favoris">
+                        ☆
+                      </button>
+                    </div>
+                    <span class="region-badge">{{ golf.region }}</span>
+                  </div>
+                  <div class="golf-body">
+                    <div
+                      class="opening-date"
+                      [class.undetermined]="golf.openingDate === 'À déterminer'"
+                      [class.opened]="isOpened(golf.openingDate)"
+                    >
+                      <strong>{{ displayOuverture(golf.openingDate) }}</strong>
+                    </div>
+                    @if (golf.name && golf.region) {
+                      <div class="map-link">
+                        <a href="{{ displayMapLink(golf) }}" target="_blank" rel="noopener noreferrer">
+                          Ouvrir dans Google Maps
+                        </a>
+                      </div>
+                    }
+                  </div>
+                  <div class="golf-footer">
+                    <small>Mis à jour: {{ formatDate(golf.scrapedAt) }}</small>
+                  </div>
                 </div>
               }
             </div>
-            <div class="golf-footer">
-              <small>Mis à jour: {{ formatDate(golf.scrapedAt) }}</small>
-            </div>
+          </div>
+        }
+
+        @if (displayedGolfs().length === 0) {
+          <div class="no-golfs">
+            <p>{{ isLoading() ? 'Chargement...' : 'Aucun golf trouvé' }}</p>
           </div>
         }
       </div>
@@ -175,7 +229,55 @@ import { GolfService, Golf } from '../../services/golf.service';
         cursor: pointer;
       }
 
-      .checkbox-filter input[type='checkbox'] {
+      .golfs-section {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+      }
+
+      .favorites-section {
+        background: #fffbeb;
+        padding: 1.5rem;
+        border-radius: 8px;
+        border-left: 4px solid #fbbf24;
+      }
+
+      .other-section {
+        flex: 1;
+      }
+
+      .section-title {
+        margin: 0 0 1.5rem 0;
+        color: #333;
+        font-size: 1.2rem;
+        font-weight: 600;
+      }
+
+      .section-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 1.5rem;
+      }
+
+      .section-header .section-title {
+        margin: 0;
+      }
+
+      .inline-checkbox {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.5rem;
+        font-weight: 500;
+        color: #666;
+        cursor: pointer;
+        white-space: nowrap;
+      }
+
+      .inline-checkbox input[type='checkbox'] {
         width: 18px;
         height: 18px;
         cursor: pointer;
@@ -185,7 +287,7 @@ import { GolfService, Golf } from '../../services/golf.service';
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
         gap: 1.5rem;
-        margin-bottom: 2rem;
+        margin-bottom: 0;
       }
 
       .golf-card {
@@ -209,14 +311,41 @@ import { GolfService, Golf } from '../../services/golf.service';
         color: white;
         padding: 1rem;
         display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+      }
+
+      .golf-header-title {
+        display: flex;
         justify-content: space-between;
-        align-items: flex-start;
+        align-items: center;
+        gap: 0.5rem;
       }
 
       .golf-header h3 {
         margin: 0;
         font-size: 1.1rem;
         flex: 1;
+      }
+
+      .star-btn {
+        background: none;
+        border: none;
+        font-size: 1.3rem;
+        cursor: pointer;
+        padding: 0.25rem;
+        opacity: 0.8;
+        transition: opacity 0.2s, transform 0.2s;
+        flex-shrink: 0;
+      }
+
+      .star-btn:hover {
+        opacity: 1;
+        transform: scale(1.15);
+      }
+
+      .star-btn.favorite {
+        opacity: 1;
       }
 
       .region-badge {
@@ -308,6 +437,8 @@ import { GolfService, Golf } from '../../services/golf.service';
 })
 export class GolfListComponent implements OnInit {
   private golfService = inject(GolfService);
+  private readonly REGION_STORAGE_KEY = 'selectedGolfRegion';
+  private readonly FAVORITES_STORAGE_KEY = 'golfFavorites';
 
   currentYear = new Date().getFullYear();
   isLoading = signal(false);
@@ -315,6 +446,7 @@ export class GolfListComponent implements OnInit {
   selectedRegion = signal('');
   hideUndetermined = signal(true);
   golfs = signal<Golf[]>([]);
+  favoriteIds = signal<Set<string>>(new Set());
 
   regions = signal<string[]>([]);
 
@@ -335,7 +467,31 @@ export class GolfListComponent implements OnInit {
     return this.golfService.sortGolfs(this.sortBy(), golfs);
   });
 
+  // Favorites filtered by region only (ignores hideUndetermined)
+  favoriteGolfs = computed(() => {
+    let golfs = this.golfs();
+
+    // Filter to only favorites
+    golfs = golfs.filter((g) => this.favoriteIds().has(g.id));
+
+    // Apply sorting to the filtered list
+    return this.golfService.sortGolfs(this.sortBy(), golfs);
+  });
+
+  otherGolfs = computed(() => {
+    return this.displayedGolfs().filter((g) => !this.favoriteIds().has(g.id));
+  });
+
   ngOnInit() {
+    // Load saved region from localStorage
+    const savedRegion = localStorage.getItem(this.REGION_STORAGE_KEY);
+    if (savedRegion) {
+      this.selectedRegion.set(savedRegion);
+    }
+
+    // Load saved favorites from localStorage
+    this.loadFavorites();
+
     this.golfService.loading$.subscribe((loading) => {
       this.isLoading.set(loading);
     });
@@ -363,6 +519,12 @@ export class GolfListComponent implements OnInit {
   changeRegion(event: Event) {
     const value = (event.target as HTMLSelectElement).value;
     this.selectedRegion.set(value);
+    // Save to localStorage
+    if (value) {
+      localStorage.setItem(this.REGION_STORAGE_KEY, value);
+    } else {
+      localStorage.removeItem(this.REGION_STORAGE_KEY);
+    }
   }
 
   toggleHideUndetermined() {
@@ -459,5 +621,53 @@ export class GolfListComponent implements OnInit {
     } catch {
       return dateString;
     }
+  }
+
+  /**
+   * Load favorites from localStorage
+   */
+  loadFavorites(): void {
+    try {
+      const stored = localStorage.getItem(this.FAVORITES_STORAGE_KEY);
+      if (stored) {
+        const favoriteArray = JSON.parse(stored);
+        this.favoriteIds.set(new Set(favoriteArray));
+      }
+    } catch (error) {
+      console.error('Error loading favorites:', error);
+    }
+  }
+
+  /**
+   * Save favorites to localStorage
+   */
+  saveFavorites(): void {
+    try {
+      const favoriteArray = Array.from(this.favoriteIds());
+      localStorage.setItem(this.FAVORITES_STORAGE_KEY, JSON.stringify(favoriteArray));
+    } catch (error) {
+      console.error('Error saving favorites:', error);
+    }
+  }
+
+  /**
+   * Toggle favorite status for a golf
+   */
+  toggleFavorite(golfId: string): void {
+    const current = new Set(this.favoriteIds());
+    if (current.has(golfId)) {
+      current.delete(golfId);
+    } else {
+      current.add(golfId);
+    }
+    this.favoriteIds.set(current);
+    this.saveFavorites();
+  }
+
+  /**
+   * Check if a golf is favorite
+   */
+  isFavorite(golfId: string): boolean {
+    return this.favoriteIds().has(golfId);
   }
 }
