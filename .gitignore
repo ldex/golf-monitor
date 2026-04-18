@@ -6,7 +6,7 @@
 /out-tsc
 /bazel-out
 
-/backend
+/backend/*
 
 # Node
 /node_modules
