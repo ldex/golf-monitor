@@ -3,10 +3,20 @@ import * as cheerio from 'cheerio';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import crypto from 'crypto';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_FILE = path.join(__dirname, '../data/golfs.json');
 const CACHE_FILE = path.join(__dirname, '../data/geocoding-cache.json');
+
+/**
+ * Generate a stable ID for a golf based on its name and region
+ * This ensures the same golf always gets the same ID, even across scraper runs
+ */
+function generateGolfId(name, region) {
+  const key = `${name.toLowerCase()}_${region.toLowerCase()}`;
+  return crypto.createHash('sha1').update(key).digest('hex').substring(0, 12);
+}
 
 /**
  * Scrapes golf opening dates from info.golf
@@ -112,7 +122,7 @@ async function scrapeGolfs() {
               const isDuplicate = golfs.some(g => g.name.toLowerCase() === name.toLowerCase());
               if (!isDuplicate) {
                 golfs.push({
-                  id: `golf_${Date.now()}_${Math.random()}`,
+                  id: generateGolfId(name, region),
                   name,
                   openingDate: openingDate || 'À déterminer',
                   region,
@@ -169,7 +179,7 @@ async function scrapeGolfs() {
                 const dateMatch = text.match(/(\d{1,2}\s+(?:janvier|février|mars|avril|mai|juin))/i);
 
                 golfs.push({
-                  id: `golf_${Date.now()}_${Math.random()}`,
+                  id: generateGolfId(name, 'Unknown'),
                   name,
                   openingDate: dateMatch ? dateMatch[1] : 'À déterminer',
                   region: 'Unknown',
@@ -209,7 +219,7 @@ async function scrapeGolfs() {
 
             if (!golfs.some(g => g.name.toLowerCase() === name.toLowerCase())) {
               golfs.push({
-                id: `golf_${Date.now()}_${Math.random()}`,
+                id: generateGolfId(name, 'Unknown'),
                 name,
                 openingDate: dateMatch ? dateMatch[1] : 'À déterminer',
                 region: 'Unknown',
